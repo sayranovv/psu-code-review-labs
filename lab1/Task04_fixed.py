@@ -23,7 +23,7 @@ class ClientActivity:
 		self.year = year
 		self.month = month
 
-	def is_less_than(self, other):
+	def __lt__(self, other):
 		'''сравнивает по длительности и затем по ранней дате.'''
 		if self.duration != other.duration:
 			return self.duration < other.duration
@@ -41,7 +41,7 @@ def find_min_activity(data):
 		raise ValueError('список данных пуст')
 	best = activities[0]
 	for activity in activities[1:]:
-		if activity.is_less_than(best):
+		if activity < best:
 			best = activity
 	return best
 
@@ -58,7 +58,7 @@ def main():
 		(3, 30, 2005, 1),
 	]
 	result = find_min_activity(data)
-	print('минимальная продолжительность:')
+	print(f'минимальная активность у id={result.client_id}')
 	print(result.duration, result.year, result.month)
 
 
