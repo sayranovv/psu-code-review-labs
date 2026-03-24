@@ -1,178 +1,194 @@
 # изменения по кодстайлу:
-# - отступы только табами
-# - имена в snake_case
-# - добавлены докстроки с @param
-# - строки сокращены
-# - диапазоны вынесены в константы
-
+# - исправлены имена и типизация
+# - добавлены/заменены docstring с @param
+# - добавлена обработка исключений
+# - генерация данных через random
+# - добавлен класс DoublyList, в исходном коде был только Node,
+# 	а логика работы с ним была разбросана по функциям
+# - объединение без новых Node
+# - добавлено преобразование списка в обычный для удобства вывода
+# - concatenate_lists(A1, A2, A0) → merge_before_node(first_list,
+# 	second_list, a0): принимает объекты списков, а не отдельные узлы A1/A2
 
 import random
 
 
-SIZE_MIN = 1
-SIZE_MAX = 5
-RANDOM_MIN = 1
-RANDOM_MAX = 20
-
-
 class Node:
-	'''узел двусвязного списка.'''
+	'''узел двусвязного списка.
 
-	def __init__(self, data, prev_node=None, next_node=None):
+	@param data: значение узла.
+	@param prev_node: предыдущий узел.
+	@param next_node: следующий узел.
+	'''
+
+	def __init__(
+		self,
+		data: int,
+		prev_node: 'Node | None' = None,
+		next_node: 'Node | None' = None,
+	) -> None:
 		'''создать узел.
 
-		@param data: данные узла.
+		@param data: значение узла.
 		@param prev_node: предыдущий узел.
 		@param next_node: следующий узел.
 		'''
-		self.data = data
-		self.prev = prev_node
-		self.next = next_node
+		self.data: int = data
+		self.prev: Node | None = prev_node
+		self.next: Node | None = next_node
+
+	def __str__(self) -> str:
+		'''вернуть строку узла.
+
+		@param self: экземпляр класса.
+		'''
+		return f'Node(data={self.data})'
 
 
-def concatenate_lists(a1, a2, a0):
-	'''склеить два списка.
+class DoublyList:
+	'''двусвязный список.
 
-	@param a1: голова первого списка.
-	@param a2: хвост первого списка.
+	@param head: начало списка.
+	@param tail: конец списка.
+	'''
+
+	def __init__(self) -> None:
+		'''создать пустой список.
+
+		@param self: экземпляр класса.
+		'''
+		self.head: Node | None = None
+		self.tail: Node | None = None
+
+	def append(self, data: int) -> None:
+		'''добавить элемент в конец.
+
+		@param data: добавляемое значение.
+		'''
+		new_node = Node(data)
+		if self.head is None:
+			self.head = new_node
+			self.tail = new_node
+			return
+		if self.tail is None:
+			raise RuntimeError('Список поврежден')
+		new_node.prev = self.tail
+		self.tail.next = new_node
+		self.tail = new_node
+
+	def to_list(self) -> list[int]:
+		'''вернуть значения списка.
+
+		@param self: экземпляр класса.
+		'''
+		values: list[int] = []
+		current = self.head
+		while current is not None:
+			values.append(current.data)
+			current = current.next
+		return values
+
+	def get_node_by_index(self, index: int) -> Node:
+		'''вернуть узел по индексу от нуля.
+
+		@param index: индекс узла.
+		'''
+		if index < 0:
+			raise ValueError('Индекс не может быть < 0')
+		current = self.head
+		step = 0
+		while current is not None and step < index:
+			current = current.next
+			step += 1
+		if current is None:
+			raise IndexError('Узел не найден')
+		return current
+
+
+def build_random_doubly_list(
+	min_len: int,
+	max_len: int,
+) -> DoublyList:
+	'''создать random-двусвязный список.
+
+	@param min_len: минимальная длина.
+	@param max_len: максимальная длина.
+	'''
+	result = DoublyList()
+	size = random.randint(min_len, max_len)
+	for _ in range(size):
+		result.append(random.randint(1, 50))
+	return result
+
+
+def merge_before_node(
+	first_list: DoublyList,
+	second_list: DoublyList,
+	a0: Node,
+) -> tuple[Node, Node]:
+	'''вставить первый список перед a0.
+
+	@param first_list: первый список.
+	@param second_list: второй список.
 	@param a0: узел второго списка.
 	'''
-	if a1 is None:
-		return a0, find_last(a0)
-	if a0 is None:
-		return a1, a2
+	if first_list.head is None or first_list.tail is None:
+		raise ValueError('Первый список пуст')
+	if second_list.head is None or second_list.tail is None:
+		raise ValueError('Второй список пуст')
 
-	print(
-		'\nВставка перед узлом '
-		'со значением: '
-		f'{a0.data}'
-	)
+	first_head = first_list.head
+	first_tail = first_list.tail
+	before_a0 = a0.prev
 
-	if a0.prev is not None:
-		a0.prev.next = a1
-	a1.prev = a0.prev
-	a0.prev = a2
-	a2.next = a0
+	if before_a0 is not None:
+		before_a0.next = first_head
+	first_head.prev = before_a0
 
-	if a1.prev is None:
-		first_node = a1
-	else:
-		first_node = find_first(a0)
-	last_node = find_last(a0)
-	return first_node, last_node
+	first_tail.next = a0
+	a0.prev = first_tail
 
+	if second_list.head is a0:
+		second_list.head = first_head
 
-def find_last(node):
-	'''найти последний элемент.
-
-	@param node: стартовый узел.
-	'''
-	if node is None:
-		return None
-	while node.next is not None:
-		node = node.next
-	return node
+	if second_list.tail is None:
+		raise RuntimeError('Нет хвоста')
+	return second_list.head, second_list.tail
 
 
-def find_first(node):
-	'''найти первый элемент.
+def main() -> None:
+	'''точка входа.'''
+	try:
+		first = build_random_doubly_list(2, 5)
+		second = build_random_doubly_list(3, 6)
+		if second.head is None:
+			raise RuntimeError('Нет второго списка')
 
-	@param node: стартовый узел.
-	'''
-	if node is None:
-		return None
-	while node.prev is not None:
-		node = node.prev
-	return node
+		second_size = len(second.to_list())
+		a0_index = random.randint(0, second_size - 1)
+		a0 = second.get_node_by_index(a0_index)
 
+		print('Первый список:')
+		print(first.to_list())
+		print('Второй список:')
+		print(second.to_list())
+		print('Узел A0:', a0)
 
-def create_random_doubly_linked_list(
-	size,
-	min_val=RANDOM_MIN,
-	max_val=RANDOM_MAX,
-):
-	'''создать случайный список.
-
-	@param size: размер списка.
-	@param min_val: минимум диапазона.
-	@param max_val: максимум диапазона.
-	'''
-	if size <= 0:
-		return None, None
-	head = Node(random.randint(min_val, max_val))
-	tail = head
-	for _ in range(size - 1):
-		new_node = Node(
-			random.randint(min_val, max_val),
-			prev_node=tail,
+		first_node, last_node = merge_before_node(
+			first,
+			second,
+			a0,
 		)
-		tail.next = new_node
-		tail = new_node
-	return head, tail
-
-
-def print_list(head):
-	'''печать списка.
-
-	@param head: голова списка.
-	'''
-	current = head
-	while current is not None:
-		print(current.data, end=' ')
-		current = current.next
-	print()
-
-
-def pick_random_node(head, size):
-	'''выбрать случайный узел.
-
-	@param head: голова списка.
-	@param size: длина списка.
-	'''
-	current = head
-	steps = random.randint(0, size - 1)
-	for _ in range(steps):
-		if current.next is not None:
-			current = current.next
-	return current
-
-
-def main():
-	'''запуск задачи.'''
-	size1 = random.randint(SIZE_MIN, SIZE_MAX)
-	size2 = random.randint(SIZE_MIN, SIZE_MAX)
-	a1, a2 = create_random_doubly_linked_list(size1)
-	b1, _ = create_random_doubly_linked_list(size2)
-	a0 = pick_random_node(b1, size2)
-
-	print('Первый список:')
-	print_list(a1)
-	print('Второй список:')
-	print_list(b1)
-
-	first_node, last_node = concatenate_lists(a1, a2, a0)
-
-	print('\nОбъединенный список:')
-	print_list(first_node)
-
-	if first_node is None:
-		first_value = 'None'
-	else:
-		first_value = first_node.data
-
-	if last_node is None:
-		last_value = 'None'
-	else:
-		last_value = last_node.data
-
-	print(
-		'\nНачало объединенного '
-		f'списка: {first_value}'
-	)
-	print(
-		'Конец объединенного '
-		f'списка: {last_value}'
-	)
+		print('Объединенный список:')
+		print(second.to_list())
+		print('Ссылка на первый:', first_node)
+		print('Ссылка на последний:', last_node)
+	except (
+		ValueError,
+		IndexError,
+		RuntimeError,
+	) as error:
+		print(f'Ошибка выполнения: {error}')
 
 
 if __name__ == '__main__':

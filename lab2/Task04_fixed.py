@@ -1,105 +1,148 @@
 # изменения по кодстайлу:
-# - отступы только табами
-# - имена в snake_case
-# - добавлены докстроки с @param
-# - строки сокращены
-# - данные в константы
+# - добавлена типизация и snake_case
+# - добавлены docstring с @param
+# - добавлена обработка исключений
+# - убраны захардкоженные данные
+# - генерация данных через random
+# - переименован класс
+# - добавлено преобразование списка в обычный для удобства вывода
+# - логика вставки вынесена в отдельный метод insert_after_each_third
+# - tail теперь хранится как атрибут списка — в оригинале P2 находился
+# 	отдельным проходом по всему списку после вставки
 
 
-INITIAL_VALUES = (3, 4, 7, 9, 7, 8)
-INSERT_STEP = 3
+import random
 
 
 class Node:
-	'''узел списка.'''
+	'''узел односвязного списка.
 
-	def __init__(self, data=None, next_node=None):
+	@param data: значение узла.
+	@param next_node: следующий узел.
+	'''
+
+	def __init__(
+		self,
+		data: int,
+		next_node: 'Node | None' = None,
+	) -> None:
 		'''создать узел.
 
-		@param data: данные узла.
+		@param data: значение узла.
 		@param next_node: следующий узел.
 		'''
-		self.data = data
-		self.next = next_node
+		self.data: int = data
+		self.next: Node | None = next_node
 
-	def __str__(self):
-		'''строка узла.'''
-		return str(self.data)
+	def __str__(self) -> str:
+		'''вернуть строку узла.
+
+		@param self: экземпляр класса.
+		'''
+		return f'Node(data={self.data})'
 
 
-class Queue:
-	'''список с добавлением в конец.'''
+class SinglyList:
+	'''односвязный список.
 
-	def __init__(self):
-		'''создать пустой список.'''
-		self.head = None
+	@param head: начало списка.
+	@param tail: конец списка.
+	'''
 
-	def push(self, data):
-		'''добавить в конец.
+	def __init__(self) -> None:
+		'''создать пустой список.
 
-		@param data: значение для добавления.
+		@param self: экземпляр класса.
+		'''
+		self.head: Node | None = None
+		self.tail: Node | None = None
+
+	def append(self, data: int) -> None:
+		'''добавить элемент в конец.
+
+		@param data: добавляемое значение.
 		'''
 		new_node = Node(data)
 		if self.head is None:
 			self.head = new_node
+			self.tail = new_node
 			return
-		current = self.head
-		while current.next is not None:
-			current = current.next
-		current.next = new_node
+		if self.tail is None:
+			raise RuntimeError('Список поврежден')
+		self.tail.next = new_node
+		self.tail = new_node
 
-	def print_queue(self):
-		'''печать списка.'''
+	def insert_after_each_third(self, value: int) -> None:
+		'''вставить value после каждого 3-го.
+
+		@param value: вставляемое значение.
+		'''
+		position = 1
 		current = self.head
 		while current is not None:
-			print(current, end=' ')
+			if position % 3 == 0:
+				inserted = Node(value, current.next)
+				current.next = inserted
+				if self.tail is current:
+					self.tail = inserted
+				current = inserted.next
+				position += 1
+				continue
 			current = current.next
-		print()
+			position += 1
+
+	def to_list(self) -> list[int]:
+		'''вернуть значения списка.
+
+		@param self: экземпляр класса.
+		'''
+		values: list[int] = []
+		current = self.head
+		while current is not None:
+			values.append(current.data)
+			current = current.next
+		return values
 
 
-def main():
-	'''запуск задачи.'''
-	one = Queue()
-	for value in INITIAL_VALUES:
-		one.push(value)
+def build_random_list() -> SinglyList:
+	'''создать случайный список.'''
+	result = SinglyList()
+	size = random.randint(6, 12)
+	for _ in range(size):
+		result.append(random.randint(1, 20))
+	return result
 
-	p1 = one.head
-	m_value = input('Введите M -> ')
+
+def read_m_value() -> int:
+	'''прочитать M от пользователя.'''
+	raw = input('Введите M, либо Enter для random: ')
+	if raw.strip() == '':
+		return random.randint(1, 20)
 	try:
-		m_value = int(m_value)
-	except ValueError:
-		print('M должно быть целым числом')
-		return
+		return int(raw)
+	except ValueError as error:
+		raise ValueError(
+			'M должно быть целым'
+		) from error
 
-	print('Изначальный список: ', end='')
-	one.print_queue()
 
-	count = 0
-	while p1 is not None:
-		count += 1
-		if count % INSERT_STEP == 0:
-			inserted = Node(m_value)
-			inserted.next = p1.next
-			p1.next = inserted
-			p1 = inserted
-		p1 = p1.next
-
-	print('Итоговый список: ', end='')
-	one.print_queue()
-
-	p2 = one.head
-	while p2 is not None and p2.next is not None:
-		p2 = p2.next
-
-	if p2 is not None:
-		print(
-			'Значение последнего '
-			f'элемента: {p2.data}'
-		)
-		print(
-			'Ссылка на последний '
-			f'элемент: {one}'
-		)
+def main() -> None:
+	'''точка входа.'''
+	try:
+		linked_list = build_random_list()
+		m_value = read_m_value()
+		print('Изначальный список:')
+		print(linked_list.to_list())
+		linked_list.insert_after_each_third(m_value)
+		print('Итоговый список:')
+		print(linked_list.to_list())
+		p2 = linked_list.tail
+		if p2 is None:
+			raise RuntimeError('Не найден хвост')
+		print('Ссылка P2:', p2)
+		print('Значение P2:', p2.data)
+	except (ValueError, RuntimeError) as error:
+		print(f'Ошибка выполнения: {error}')
 
 
 if __name__ == '__main__':

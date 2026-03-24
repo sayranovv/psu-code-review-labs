@@ -21,7 +21,6 @@ class Queue:
 	'''очередь.'''
 
 	def __init__(self):
-		'''создать пустую очередь.'''
 		self.head = None
 		self.tail = None
 

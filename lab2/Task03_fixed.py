@@ -1,123 +1,126 @@
 # изменения по кодстайлу:
-# - отступы только табами
-# - имена в snake_case
-# - добавлены докстроки с @param
-# - строки сокращены
-# - демо в константы
+# - добавлена строгая типизация
+# - добавлены docstring с @param
+# - добавлена обработка исключений
+# - убраны захардкоженные данные
+# - генерация данных через random
+# - переименован класс
+# - добавлено преобразование списка в обычный для удобства вывода
+# - оставлен только append и get_nth_node для решения задачи
 
-
-UNDERFLOW_TEXT = 'Stack Underflow'
-TARGET_INDEX = 9
-INITIAL_VALUE = 1
-DEMO_LENGTH = 12
+import random
 
 
 class Node:
-	'''узел списка.'''
+	'''узел односвязного списка.
 
-	def __init__(self, data):
-		'''создать узел.
+	@param data: данные узла.
+	@param next_node: следующий узел.
+	'''
+
+	def __init__(
+		self,
+		data: int,
+		next_node: 'Node | None' = None,
+	) -> None:
+		'''инициализировать узел.
 
 		@param data: данные узла.
+		@param next_node: следующий узел.
 		'''
-		self.data = data
-		self.next = None
+		self.data: int = data
+		self.next: Node | None = next_node
+
+	def __str__(self) -> str:
+		'''вернуть строку узла.
+
+		@param self: экземпляр класса.
+		'''
+		return f'Node(data={self.data})'
 
 
-class LinkedList:
-	'''односвязный список.'''
+class SinglyList:
+	'''односвязный список.
 
-	def __init__(self):
-		'''создать пустой список.'''
-		self.head = None
-		self.tail = None
+	@param head: начало списка.
+	@param tail: конец списка.
+	'''
 
-	def add_head(self, data):
-		'''добавить в начало.
+	def __init__(self) -> None:
+		'''инициализировать пустой список.
 
-		@param data: значение для добавления.
+		@param self: экземпляр класса.
+		'''
+		self.head: Node | None = None
+		self.tail: Node | None = None
+
+	def append(self, data: int) -> None:
+		'''добавить элемент в конец.
+
+		@param data: добавляемое значение.
 		'''
 		new_node = Node(data)
 		if self.head is None:
 			self.head = new_node
 			self.tail = new_node
 			return
-		new_node.next = self.head
-		self.head = new_node
-
-	def add_tail(self, data):
-		'''добавить в конец.
-
-		@param data: значение для добавления.
-		'''
-		new_node = Node(data)
-		if self.head is None:
-			self.head = new_node
-			self.tail = new_node
-			return
+		if self.tail is None:
+			raise RuntimeError('Список поврежден')
 		self.tail.next = new_node
 		self.tail = new_node
 
-	def delete_tail(self):
-		'''удалить хвост.'''
-		if self.head is None:
-			return
-		if self.head.next is None:
-			self.head = None
-			self.tail = None
-			return
+	def get_nth_node(self, index: int) -> Node:
+		'''вернуть узел по индексу от 1.
+
+		@param index: номер узла в списке.
+		'''
+		if index <= 0:
+			raise ValueError('Индекс должен быть > 0')
 		current = self.head
-		while current.next.next is not None:
+		step = 1
+		while current is not None and step < index:
 			current = current.next
-		current.next = None
-		self.tail = current
+			step += 1
+		if current is None:
+			raise IndexError('Узел не найден')
+		return current
 
-	def delete_head(self):
-		'''удалить голову.'''
-		if self.head is None:
-			return
-		self.head = self.head.next
-		if self.head is None:
-			self.tail = None
+	def to_list(self) -> list[int]:
+		'''вернуть значения списка.
 
-	def display(self):
-		'''показать список.'''
-		iter_node = self.head
-		if self.head is None:
-			print(UNDERFLOW_TEXT)
-			return
-		while iter_node is not None:
-			print(iter_node.data, end='')
-			iter_node = iter_node.next
-			if iter_node is not None:
-				print(' -> ', end='')
-
-	def find_ninth(self):
-		'''найти 9-й элемент.'''
-		iter_node = self.head
-		if self.head is None:
-			print(UNDERFLOW_TEXT)
-			return None
-		count = 1
-		while iter_node is not None and count != TARGET_INDEX:
-			iter_node = iter_node.next
-			count += 1
-		print(iter_node)
-		if iter_node is None:
-			return None
-		return iter_node.data
+		@param self: экземпляр класса.
+		'''
+		values: list[int] = []
+		current = self.head
+		while current is not None:
+			values.append(current.data)
+			current = current.next
+		return values
 
 
-def main():
-	'''запуск задачи.'''
-	linked_list = LinkedList()
-	value = INITIAL_VALUE
-	for _ in range(DEMO_LENGTH):
-		linked_list.add_tail(value)
-		value += 1
-	linked_list.display()
-	print('')
-	linked_list.find_ninth()
+def build_random_list() -> SinglyList:
+	'''создать случайный список.'''
+	result = SinglyList()
+	size = random.randint(9, 15)
+	for _ in range(size):
+		result.append(random.randint(1, 99))
+	return result
+
+
+def main() -> None:
+	'''точка входа.'''
+	try:
+		linked_list = build_random_list()
+		p1 = linked_list.head
+		if p1 is None:
+			raise RuntimeError('Список не был создан')
+		p9 = linked_list.get_nth_node(9)
+		print('Список:', linked_list.to_list())
+		print('Указатель P1:', p1)
+		print('Указатель P9:', p9)
+		print('Значение P9:', p9.data)
+	except (RuntimeError, IndexError, ValueError) as error:
+		print(f'Ошибка выполнения: {error}')
 
 
 if __name__ == '__main__':
