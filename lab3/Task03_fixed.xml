@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<documentation>
+	<file>Task03_fixed.py</file>
+	<task>HomeDyn17</task>
+	<purpose>Подсчет K-ичных N-разрядных чисел без трех нулей подряд.</purpose>
+	<input>
+		Параметры N и K читаются из аргументов командной строки
+		или из стандартного ввода.
+	</input>
+	<output>
+		В stdout выводится количество подходящих чисел.
+	</output>
+	<algorithm>
+		Используется динамическое программирование по числу
+		нулей в конце текущей записи: 0, 1 или 2.
+	</algorithm>
+	<notes>
+		Учитываются ограничения 2 &lt;= K &lt;= 10 и N + K &lt; 26.
+	</notes>
+</documentation>

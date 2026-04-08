@@ -139,10 +139,7 @@ class IntListB:
 
 
 def build_barrier_list() -> IntListB:
-	'''создать список с барьером и random.
-
-	@param нет: входных параметров нет.
-	'''
+	'''создать список с барьером и random.'''
 	barrier = Node(0)
 	barrier.prev = barrier
 	barrier.next = barrier
