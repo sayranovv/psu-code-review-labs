@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="ru">
+  <compounddef id="namespaceru_1_1sayranov" kind="namespace" language="Java">
+    <compoundname>ru::sayranov</compoundname>
+    <innernamespace refid="namespaceru_1_1sayranov_1_1geography">ru::sayranov::geography</innernamespace>
+    <innernamespace refid="namespaceru_1_1sayranov_1_1main">ru::sayranov::main</innernamespace>
+    <innernamespace refid="namespaceru_1_1sayranov_1_1math">ru::sayranov::math</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="[generated]" line="1" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="ru">
+  <compounddef id="namespaceru_1_1sayranov_1_1main" kind="namespace" language="Java">
+    <compoundname>ru::sayranov::main</compoundname>
+    <innerclass refid="classru_1_1sayranov_1_1main_1_1_main" prot="public">ru::sayranov::main::Main</innerclass>
+    <innerclass refid="classru_1_1sayranov_1_1main_1_1_sum__2__5__1" prot="public">ru::sayranov::main::Sum_2_5_1</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="ru/sayranov/main/Main.java" line="1" column="15"/>
+  </compounddef>
+</doxygen>

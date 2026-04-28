@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="ru">
+  <compounddef id="dir_a3e2e3d8392d9b1799fca90ba7cea1cf" kind="dir">
+    <compoundname>ru/sayranov</compoundname>
+    <innerdir refid="dir_ed94c22811e8fc9488ab3891720dd156">ru/sayranov/geography</innerdir>
+    <innerdir refid="dir_0666de9c1c829d81397d7cd7836891c7">ru/sayranov/main</innerdir>
+    <innerdir refid="dir_d5b56ff473ab65da5a3cfb590ea9f3f1">ru/sayranov/math</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="ru/sayranov/"/>
+  </compounddef>
+</doxygen>

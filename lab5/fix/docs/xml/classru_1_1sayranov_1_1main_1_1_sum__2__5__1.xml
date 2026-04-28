@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="ru">
+  <compounddef id="classru_1_1sayranov_1_1main_1_1_sum__2__5__1" kind="class" language="Java" prot="public">
+    <compoundname>ru::sayranov::main::Sum_2_5_1</compoundname>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classru_1_1sayranov_1_1main_1_1_sum__2__5__1_1a206d6bf6575864fc25413d9289c51d49" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ru.sayranov.main.Sum_2_5_1.Sum_2_5_1</definition>
+        <argsstring>()</argsstring>
+        <name>Sum_2_5_1</name>
+        <qualifiedname>ru.sayranov.main.Sum_2_5_1.Sum_2_5_1</qualifiedname>
+        <briefdescription>
+<para>закрытый конструктор утилитного класса. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ru/sayranov/main/Sum_2_5_1.java" line="11" column="9" bodyfile="ru/sayranov/main/Sum_2_5_1.java" bodystart="11" bodyend="12"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classru_1_1sayranov_1_1main_1_1_sum__2__5__1_1add8b70002237f5ba6bae808120c653f0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>static double ru.sayranov.main.Sum_2_5_1.sum</definition>
+        <argsstring>(final Number... numbers)</argsstring>
+        <name>sum</name>
+        <qualifiedname>ru.sayranov.main.Sum_2_5_1.sum</qualifiedname>
+        <param>
+          <type>final Number...</type>
+          <declname>numbers</declname>
+        </param>
+        <briefdescription>
+<para>суммирует список чисел. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>numbers</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>массив чисел </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>сумма чисел </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ru/sayranov/main/Sum_2_5_1.java" line="20" column="22" bodyfile="ru/sayranov/main/Sum_2_5_1.java" bodystart="20" bodyend="40"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>утилита для суммирования чисел. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="ru/sayranov/main/Sum_2_5_1.java" line="6" column="13" bodyfile="ru/sayranov/main/Sum_2_5_1.java" bodystart="6" bodyend="41"/>
+    <listofallmembers>
+      <member refid="classru_1_1sayranov_1_1main_1_1_sum__2__5__1_1add8b70002237f5ba6bae808120c653f0" prot="public" virt="non-virtual"><scope>ru::sayranov::main::Sum_2_5_1</scope><name>sum</name></member>
+      <member refid="classru_1_1sayranov_1_1main_1_1_sum__2__5__1_1a206d6bf6575864fc25413d9289c51d49" prot="private" virt="non-virtual"><scope>ru::sayranov::main::Sum_2_5_1</scope><name>Sum_2_5_1</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="ru">
+  <compounddef id="namespaceru_1_1sayranov_1_1geography" kind="namespace" language="Java">
+    <compoundname>ru::sayranov::geography</compoundname>
+    <innerclass refid="classru_1_1sayranov_1_1geography_1_1_city__2__1__10" prot="public">ru::sayranov::geography::City_2_1_10</innerclass>
+    <innerclass refid="classru_1_1sayranov_1_1geography_1_1_city__2__6__5" prot="public">ru::sayranov::geography::City_2_6_5</innerclass>
+    <innerclass refid="classru_1_1sayranov_1_1geography_1_1_route__2__2__5" prot="public">ru::sayranov::geography::Route_2_2_5</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="ru/sayranov/geography/City_2_1_10.java" line="1" column="15"/>
+  </compounddef>
+</doxygen>

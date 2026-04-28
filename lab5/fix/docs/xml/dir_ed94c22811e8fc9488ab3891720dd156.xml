@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="ru">
+  <compounddef id="dir_ed94c22811e8fc9488ab3891720dd156" kind="dir">
+    <compoundname>ru/sayranov/geography</compoundname>
+    <innerfile refid="_city__2__1__10_8java">City_2_1_10.java</innerfile>
+    <innerfile refid="_city__2__6__5_8java">City_2_6_5.java</innerfile>
+    <innerfile refid="_route__2__2__5_8java">Route_2_2_5.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="ru/sayranov/geography/"/>
+  </compounddef>
+</doxygen>

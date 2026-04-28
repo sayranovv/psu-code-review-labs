@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="ru">
+  <compounddef id="dir_d5b56ff473ab65da5a3cfb590ea9f3f1" kind="dir">
+    <compoundname>ru/sayranov/math</compoundname>
+    <innerfile refid="_fraction__2__1__4_8java">Fraction_2_1_4.java</innerfile>
+    <innerfile refid="_fraction__2__3__1_8java">Fraction_2_3_1.java</innerfile>
+    <innerfile refid="_fraction__2__4__2_8java">Fraction_2_4_2.java</innerfile>
+    <innerfile refid="_power_calc__2__7__3_8java">PowerCalc_2_7_3.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="ru/sayranov/math/"/>
+  </compounddef>
+</doxygen>

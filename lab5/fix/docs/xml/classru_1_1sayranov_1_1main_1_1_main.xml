@@ -1,0 +1,666 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="ru">
+  <compounddef id="classru_1_1sayranov_1_1main_1_1_main" kind="class" language="Java" prot="public">
+    <compoundname>ru::sayranov::main::Main</compoundname>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classru_1_1sayranov_1_1main_1_1_main_1a4886229fb502b2c14325539ce81306ec" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ru.sayranov.main.Main.Main</definition>
+        <argsstring>()</argsstring>
+        <name>Main</name>
+        <qualifiedname>ru.sayranov.main.Main.Main</qualifiedname>
+        <briefdescription>
+<para>закрытый конструктор утилитного класса. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ru/sayranov/main/Main.java" line="21" column="9" bodyfile="ru/sayranov/main/Main.java" bodystart="21" bodyend="22"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classru_1_1sayranov_1_1main_1_1_main_1add2d0fabdad578c281f124eaa03dc388" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ru.sayranov.main.Main.main</definition>
+        <argsstring>(final String[] args)</argsstring>
+        <name>main</name>
+        <qualifiedname>ru.sayranov.main.Main.main</qualifiedname>
+        <param>
+          <type>final String[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+<para>запускает программу. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>args</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>аргументы командной строки </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ru/sayranov/main/Main.java" line="29" column="20" bodyfile="ru/sayranov/main/Main.java" bodystart="29" bodyend="48"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classru_1_1sayranov_1_1main_1_1_main_1a52188422ca3d09c772b42315d8e7fc99" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ru.sayranov.main.Main.runSelectedTask</definition>
+        <argsstring>(final int exercise, final int task, final Scanner scanner)</argsstring>
+        <name>runSelectedTask</name>
+        <qualifiedname>ru.sayranov.main.Main.runSelectedTask</qualifiedname>
+        <param>
+          <type>final int</type>
+          <declname>exercise</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>task</declname>
+        </param>
+        <param>
+          <type>final Scanner</type>
+          <declname>scanner</declname>
+        </param>
+        <briefdescription>
+<para>запускает выбранную задачу. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>exercise</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>номер задания </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>task</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>номер задачи </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>scanner</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>сканер ввода </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ru/sayranov/main/Main.java" line="57" column="21" bodyfile="ru/sayranov/main/Main.java" bodystart="57" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="classru_1_1sayranov_1_1main_1_1_main_1a29f92c4645b46cdef82d25973ccf468b" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ru.sayranov.main.Main.runTask_1_4</definition>
+        <argsstring>(final Scanner scanner)</argsstring>
+        <name>runTask_1_4</name>
+        <qualifiedname>ru.sayranov.main.Main.runTask_1_4</qualifiedname>
+        <param>
+          <type>final Scanner</type>
+          <declname>scanner</declname>
+        </param>
+        <briefdescription>
+<para>выполняет задачу 1.4. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>scanner</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>сканер ввода </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ru/sayranov/main/Main.java" line="110" column="21" bodyfile="ru/sayranov/main/Main.java" bodystart="110" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="classru_1_1sayranov_1_1main_1_1_main_1ab8bd9ef10ed9b63fbd9b563e92e4e937" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ru.sayranov.main.Main.runTask_1_10</definition>
+        <argsstring>(final Scanner scanner)</argsstring>
+        <name>runTask_1_10</name>
+        <qualifiedname>ru.sayranov.main.Main.runTask_1_10</qualifiedname>
+        <param>
+          <type>final Scanner</type>
+          <declname>scanner</declname>
+        </param>
+        <briefdescription>
+<para>выполняет задачу 1.10. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>scanner</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>сканер ввода </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ru/sayranov/main/Main.java" line="129" column="21" bodyfile="ru/sayranov/main/Main.java" bodystart="129" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="classru_1_1sayranov_1_1main_1_1_main_1a633033d47b9e8a952a8346db86cc36a4" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ru.sayranov.main.Main.runTask_2_5</definition>
+        <argsstring>(final Scanner scanner)</argsstring>
+        <name>runTask_2_5</name>
+        <qualifiedname>ru.sayranov.main.Main.runTask_2_5</qualifiedname>
+        <param>
+          <type>final Scanner</type>
+          <declname>scanner</declname>
+        </param>
+        <briefdescription>
+<para>выполняет задачу 2.5. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>scanner</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>сканер ввода </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ru/sayranov/main/Main.java" line="166" column="21" bodyfile="ru/sayranov/main/Main.java" bodystart="166" bodyend="202"/>
+      </memberdef>
+      <memberdef kind="function" id="classru_1_1sayranov_1_1main_1_1_main_1ad41792292834d8af71b312b76bc86e3a" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ru.sayranov.main.Main.runTask_3_1</definition>
+        <argsstring>(final Scanner scanner)</argsstring>
+        <name>runTask_3_1</name>
+        <qualifiedname>ru.sayranov.main.Main.runTask_3_1</qualifiedname>
+        <param>
+          <type>final Scanner</type>
+          <declname>scanner</declname>
+        </param>
+        <briefdescription>
+<para>выполняет задачу 3.1. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>scanner</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>сканер ввода </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ru/sayranov/main/Main.java" line="209" column="21" bodyfile="ru/sayranov/main/Main.java" bodystart="209" bodyend="221"/>
+      </memberdef>
+      <memberdef kind="function" id="classru_1_1sayranov_1_1main_1_1_main_1a430435bea27833c68e4dd28ce529e469" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ru.sayranov.main.Main.runTask_4_2</definition>
+        <argsstring>(final Scanner scanner)</argsstring>
+        <name>runTask_4_2</name>
+        <qualifiedname>ru.sayranov.main.Main.runTask_4_2</qualifiedname>
+        <param>
+          <type>final Scanner</type>
+          <declname>scanner</declname>
+        </param>
+        <briefdescription>
+<para>выполняет задачу 4.2. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>scanner</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>сканер ввода </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ru/sayranov/main/Main.java" line="228" column="21" bodyfile="ru/sayranov/main/Main.java" bodystart="228" bodyend="238"/>
+      </memberdef>
+      <memberdef kind="function" id="classru_1_1sayranov_1_1main_1_1_main_1a09f398752b37d4a28ea9c580de6ed2cd" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ru.sayranov.main.Main.runTask_5_1</definition>
+        <argsstring>(final Scanner scanner)</argsstring>
+        <name>runTask_5_1</name>
+        <qualifiedname>ru.sayranov.main.Main.runTask_5_1</qualifiedname>
+        <param>
+          <type>final Scanner</type>
+          <declname>scanner</declname>
+        </param>
+        <briefdescription>
+<para>выполняет задачу 5.1. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>scanner</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>сканер ввода </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ru/sayranov/main/Main.java" line="245" column="21" bodyfile="ru/sayranov/main/Main.java" bodystart="245" bodyend="262"/>
+      </memberdef>
+      <memberdef kind="function" id="classru_1_1sayranov_1_1main_1_1_main_1a6f53c8a7af9b5481767394d4f7a3ebf2" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ru.sayranov.main.Main.runTask_6_5</definition>
+        <argsstring>(final Scanner scanner)</argsstring>
+        <name>runTask_6_5</name>
+        <qualifiedname>ru.sayranov.main.Main.runTask_6_5</qualifiedname>
+        <param>
+          <type>final Scanner</type>
+          <declname>scanner</declname>
+        </param>
+        <briefdescription>
+<para>выполняет задачу 6.5. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>scanner</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>сканер ввода </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ru/sayranov/main/Main.java" line="269" column="21" bodyfile="ru/sayranov/main/Main.java" bodystart="269" bodyend="290"/>
+      </memberdef>
+      <memberdef kind="function" id="classru_1_1sayranov_1_1main_1_1_main_1aa875262fab2509045f73799040095f90" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ru.sayranov.main.Main.runTask_7_3</definition>
+        <argsstring>(final Scanner scanner)</argsstring>
+        <name>runTask_7_3</name>
+        <qualifiedname>ru.sayranov.main.Main.runTask_7_3</qualifiedname>
+        <param>
+          <type>final Scanner</type>
+          <declname>scanner</declname>
+        </param>
+        <briefdescription>
+<para>выполняет задачу 7.3. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>scanner</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>сканер ввода </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ru/sayranov/main/Main.java" line="297" column="21" bodyfile="ru/sayranov/main/Main.java" bodystart="297" bodyend="305"/>
+      </memberdef>
+      <memberdef kind="function" id="classru_1_1sayranov_1_1main_1_1_main_1aa60490cc2582d477f84b8411c3a4ee2b" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int ru.sayranov.main.Main.readInt</definition>
+        <argsstring>(final Scanner scanner, final String prompt)</argsstring>
+        <name>readInt</name>
+        <qualifiedname>ru.sayranov.main.Main.readInt</qualifiedname>
+        <param>
+          <type>final Scanner</type>
+          <declname>scanner</declname>
+        </param>
+        <param>
+          <type>final String</type>
+          <declname>prompt</declname>
+        </param>
+        <briefdescription>
+<para>читает целое число. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>scanner</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>сканер ввода </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>prompt</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>текст запроса </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>введенное целое число </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ru/sayranov/main/Main.java" line="314" column="20" bodyfile="ru/sayranov/main/Main.java" bodystart="314" bodyend="329"/>
+      </memberdef>
+      <memberdef kind="function" id="classru_1_1sayranov_1_1main_1_1_main_1a19c8b58c631173d765645e65071efe5d" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>static String ru.sayranov.main.Main.readText</definition>
+        <argsstring>(final Scanner scanner, final String prompt)</argsstring>
+        <name>readText</name>
+        <qualifiedname>ru.sayranov.main.Main.readText</qualifiedname>
+        <param>
+          <type>final Scanner</type>
+          <declname>scanner</declname>
+        </param>
+        <param>
+          <type>final String</type>
+          <declname>prompt</declname>
+        </param>
+        <briefdescription>
+<para>читает текстовое значение. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>scanner</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>сканер ввода </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>prompt</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>текст запроса </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>введенная строка </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ru/sayranov/main/Main.java" line="338" column="23" bodyfile="ru/sayranov/main/Main.java" bodystart="338" bodyend="352"/>
+      </memberdef>
+      <memberdef kind="function" id="classru_1_1sayranov_1_1main_1_1_main_1a1ae9c8c30990a1076fbf2f1a8f85d635" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Number</type>
+        <definition>static Number ru.sayranov.main.Main.readNumber</definition>
+        <argsstring>(final Scanner scanner, final String prompt)</argsstring>
+        <name>readNumber</name>
+        <qualifiedname>ru.sayranov.main.Main.readNumber</qualifiedname>
+        <param>
+          <type>final Scanner</type>
+          <declname>scanner</declname>
+        </param>
+        <param>
+          <type>final String</type>
+          <declname>prompt</declname>
+        </param>
+        <briefdescription>
+<para>читает значение Number. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>scanner</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>сканер ввода </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>prompt</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>текст запроса </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>число int, double или <ref refid="classru_1_1sayranov_1_1math_1_1_fraction__2__4__2" kindref="compound">Fraction_2_4_2</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ru/sayranov/main/Main.java" line="361" column="23" bodyfile="ru/sayranov/main/Main.java" bodystart="361" bodyend="385"/>
+      </memberdef>
+      <memberdef kind="function" id="classru_1_1sayranov_1_1main_1_1_main_1aa98c5b3171801dea6a360d1a5bb230e8" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classru_1_1sayranov_1_1math_1_1_fraction__2__1__4" kindref="compound">Fraction_2_1_4</ref></type>
+        <definition>static Fraction_2_1_4 ru.sayranov.main.Main.readFraction214</definition>
+        <argsstring>(final Scanner scanner, final String label)</argsstring>
+        <name>readFraction214</name>
+        <qualifiedname>ru.sayranov.main.Main.readFraction214</qualifiedname>
+        <param>
+          <type>final Scanner</type>
+          <declname>scanner</declname>
+        </param>
+        <param>
+          <type>final String</type>
+          <declname>label</declname>
+        </param>
+        <briefdescription>
+<para>читает дробь для класса 2.1.4. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>scanner</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>сканер ввода </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>label</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>метка значения </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>созданная дробь </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ru/sayranov/main/Main.java" line="394" column="31" bodyfile="ru/sayranov/main/Main.java" bodystart="394" bodyend="401"/>
+      </memberdef>
+      <memberdef kind="function" id="classru_1_1sayranov_1_1main_1_1_main_1ad460e891af73ead6e9b1e5c88d231c77" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classru_1_1sayranov_1_1math_1_1_fraction__2__3__1" kindref="compound">Fraction_2_3_1</ref></type>
+        <definition>static Fraction_2_3_1 ru.sayranov.main.Main.readFraction231</definition>
+        <argsstring>(final Scanner scanner, final String label)</argsstring>
+        <name>readFraction231</name>
+        <qualifiedname>ru.sayranov.main.Main.readFraction231</qualifiedname>
+        <param>
+          <type>final Scanner</type>
+          <declname>scanner</declname>
+        </param>
+        <param>
+          <type>final String</type>
+          <declname>label</declname>
+        </param>
+        <briefdescription>
+<para>читает дробь для класса 2.3.1. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>scanner</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>сканер ввода </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>label</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>метка значения </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>созданная дробь </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ru/sayranov/main/Main.java" line="410" column="31" bodyfile="ru/sayranov/main/Main.java" bodystart="410" bodyend="417"/>
+      </memberdef>
+      <memberdef kind="function" id="classru_1_1sayranov_1_1main_1_1_main_1a5719ed3f58cfd3c1cabcde5ef62e19ff" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classru_1_1sayranov_1_1math_1_1_fraction__2__4__2" kindref="compound">Fraction_2_4_2</ref></type>
+        <definition>static Fraction_2_4_2 ru.sayranov.main.Main.readFraction242</definition>
+        <argsstring>(final Scanner scanner, final String label)</argsstring>
+        <name>readFraction242</name>
+        <qualifiedname>ru.sayranov.main.Main.readFraction242</qualifiedname>
+        <param>
+          <type>final Scanner</type>
+          <declname>scanner</declname>
+        </param>
+        <param>
+          <type>final String</type>
+          <declname>label</declname>
+        </param>
+        <briefdescription>
+<para>читает дробь для класса 2.4.2. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>scanner</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>сканер ввода </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>label</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>метка значения </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>созданная дробь </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ru/sayranov/main/Main.java" line="426" column="31" bodyfile="ru/sayranov/main/Main.java" bodystart="426" bodyend="433"/>
+      </memberdef>
+      <memberdef kind="function" id="classru_1_1sayranov_1_1main_1_1_main_1a89460fae2e0efe7defcfb98990ccaab0" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ru.sayranov.main.Main.validateIndex</definition>
+        <argsstring>(final int index, final int length)</argsstring>
+        <name>validateIndex</name>
+        <qualifiedname>ru.sayranov.main.Main.validateIndex</qualifiedname>
+        <param>
+          <type>final int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>length</declname>
+        </param>
+        <briefdescription>
+<para>проверяет корректность индекса массива. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>индекс </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>length</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>длина массива </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ru/sayranov/main/Main.java" line="441" column="21" bodyfile="ru/sayranov/main/Main.java" bodystart="441" bodyend="450"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>точка входа для запуска заданий лабораторной 5. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="ru/sayranov/main/Main.java" line="16" column="13" bodyfile="ru/sayranov/main/Main.java" bodystart="16" bodyend="451"/>
+    <listofallmembers>
+      <member refid="classru_1_1sayranov_1_1main_1_1_main_1a4886229fb502b2c14325539ce81306ec" prot="private" virt="non-virtual"><scope>ru::sayranov::main::Main</scope><name>Main</name></member>
+      <member refid="classru_1_1sayranov_1_1main_1_1_main_1add2d0fabdad578c281f124eaa03dc388" prot="public" virt="non-virtual"><scope>ru::sayranov::main::Main</scope><name>main</name></member>
+      <member refid="classru_1_1sayranov_1_1main_1_1_main_1aa98c5b3171801dea6a360d1a5bb230e8" prot="private" virt="non-virtual"><scope>ru::sayranov::main::Main</scope><name>readFraction214</name></member>
+      <member refid="classru_1_1sayranov_1_1main_1_1_main_1ad460e891af73ead6e9b1e5c88d231c77" prot="private" virt="non-virtual"><scope>ru::sayranov::main::Main</scope><name>readFraction231</name></member>
+      <member refid="classru_1_1sayranov_1_1main_1_1_main_1a5719ed3f58cfd3c1cabcde5ef62e19ff" prot="private" virt="non-virtual"><scope>ru::sayranov::main::Main</scope><name>readFraction242</name></member>
+      <member refid="classru_1_1sayranov_1_1main_1_1_main_1aa60490cc2582d477f84b8411c3a4ee2b" prot="private" virt="non-virtual"><scope>ru::sayranov::main::Main</scope><name>readInt</name></member>
+      <member refid="classru_1_1sayranov_1_1main_1_1_main_1a1ae9c8c30990a1076fbf2f1a8f85d635" prot="private" virt="non-virtual"><scope>ru::sayranov::main::Main</scope><name>readNumber</name></member>
+      <member refid="classru_1_1sayranov_1_1main_1_1_main_1a19c8b58c631173d765645e65071efe5d" prot="private" virt="non-virtual"><scope>ru::sayranov::main::Main</scope><name>readText</name></member>
+      <member refid="classru_1_1sayranov_1_1main_1_1_main_1a52188422ca3d09c772b42315d8e7fc99" prot="private" virt="non-virtual"><scope>ru::sayranov::main::Main</scope><name>runSelectedTask</name></member>
+      <member refid="classru_1_1sayranov_1_1main_1_1_main_1ab8bd9ef10ed9b63fbd9b563e92e4e937" prot="private" virt="non-virtual"><scope>ru::sayranov::main::Main</scope><name>runTask_1_10</name></member>
+      <member refid="classru_1_1sayranov_1_1main_1_1_main_1a29f92c4645b46cdef82d25973ccf468b" prot="private" virt="non-virtual"><scope>ru::sayranov::main::Main</scope><name>runTask_1_4</name></member>
+      <member refid="classru_1_1sayranov_1_1main_1_1_main_1a633033d47b9e8a952a8346db86cc36a4" prot="private" virt="non-virtual"><scope>ru::sayranov::main::Main</scope><name>runTask_2_5</name></member>
+      <member refid="classru_1_1sayranov_1_1main_1_1_main_1ad41792292834d8af71b312b76bc86e3a" prot="private" virt="non-virtual"><scope>ru::sayranov::main::Main</scope><name>runTask_3_1</name></member>
+      <member refid="classru_1_1sayranov_1_1main_1_1_main_1a430435bea27833c68e4dd28ce529e469" prot="private" virt="non-virtual"><scope>ru::sayranov::main::Main</scope><name>runTask_4_2</name></member>
+      <member refid="classru_1_1sayranov_1_1main_1_1_main_1a09f398752b37d4a28ea9c580de6ed2cd" prot="private" virt="non-virtual"><scope>ru::sayranov::main::Main</scope><name>runTask_5_1</name></member>
+      <member refid="classru_1_1sayranov_1_1main_1_1_main_1a6f53c8a7af9b5481767394d4f7a3ebf2" prot="private" virt="non-virtual"><scope>ru::sayranov::main::Main</scope><name>runTask_6_5</name></member>
+      <member refid="classru_1_1sayranov_1_1main_1_1_main_1aa875262fab2509045f73799040095f90" prot="private" virt="non-virtual"><scope>ru::sayranov::main::Main</scope><name>runTask_7_3</name></member>
+      <member refid="classru_1_1sayranov_1_1main_1_1_main_1a89460fae2e0efe7defcfb98990ccaab0" prot="private" virt="non-virtual"><scope>ru::sayranov::main::Main</scope><name>validateIndex</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

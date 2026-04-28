@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.16.1" xml:lang="ru">
+  <compound refid="classru_1_1sayranov_1_1geography_1_1_city__2__1__10" kind="class"><name>ru::sayranov::geography::City_2_1_10</name>
+    <member refid="classru_1_1sayranov_1_1geography_1_1_city__2__1__10_1a597a0e824b95382e5eee6f1991213f2d" kind="variable"><name>name</name></member>
+    <member refid="classru_1_1sayranov_1_1geography_1_1_city__2__1__10_1ab01fde7e2429d7fea7e4aaf0be2de6c3" kind="variable"><name>paths</name></member>
+    <member refid="classru_1_1sayranov_1_1geography_1_1_city__2__1__10_1a0d538df12851ab4a89030107406ec02e" kind="function"><name>City_2_1_10</name></member>
+    <member refid="classru_1_1sayranov_1_1geography_1_1_city__2__1__10_1a8cb404392e97caead90915d6e6e7bd9c" kind="function"><name>City_2_1_10</name></member>
+    <member refid="classru_1_1sayranov_1_1geography_1_1_city__2__1__10_1ad683b6b29f1921d5094941ebc2e3d6d3" kind="function"><name>addPath</name></member>
+    <member refid="classru_1_1sayranov_1_1geography_1_1_city__2__1__10_1a21e979c5332c403e4bba7066a6a3d707" kind="function"><name>removePath</name></member>
+    <member refid="classru_1_1sayranov_1_1geography_1_1_city__2__1__10_1a46e472b960ee5ed6d6ac99061f751db3" kind="function"><name>getPaths</name></member>
+    <member refid="classru_1_1sayranov_1_1geography_1_1_city__2__1__10_1a1b5c723e589e12d6a56178d5d177a8e8" kind="function"><name>getName</name></member>
+    <member refid="classru_1_1sayranov_1_1geography_1_1_city__2__1__10_1a5f3a339d64ae9017c75147ceaf4d8a07" kind="function"><name>toString</name></member>
+    <member refid="classru_1_1sayranov_1_1geography_1_1_city__2__1__10_1ac9ccbbf0f9c525333cdaa05c39bd1f6d" kind="function"><name>equals</name></member>
+    <member refid="classru_1_1sayranov_1_1geography_1_1_city__2__1__10_1ab2a70154abddae119f9f26d7bfafbc78" kind="function"><name>hashCode</name></member>
+    <member refid="classru_1_1sayranov_1_1geography_1_1_city__2__1__10_1a54207989bd59c18ea2b6ae0dc1c469b5" kind="function"><name>validateName</name></member>
+    <member refid="classru_1_1sayranov_1_1geography_1_1_city__2__1__10_1ab296130cefb131e165d2422001bbf6d8" kind="function"><name>validateCost</name></member>
+    <member refid="classru_1_1sayranov_1_1geography_1_1_city__2__1__10_1a4a60aeb66f98589cc27e9e3e357b14b2" kind="function"><name>validateCity</name></member>
+  </compound>
+  <compound refid="classru_1_1sayranov_1_1geography_1_1_city__2__6__5" kind="class"><name>ru::sayranov::geography::City_2_6_5</name>
+    <member refid="classru_1_1sayranov_1_1geography_1_1_city__2__6__5_1aa3193f112de60924cdd6d10f26396496" kind="variable"><name>name</name></member>
+    <member refid="classru_1_1sayranov_1_1geography_1_1_city__2__6__5_1abbeeed41befc6da7d4c23bd04b3294b0" kind="variable"><name>paths</name></member>
+    <member refid="classru_1_1sayranov_1_1geography_1_1_city__2__6__5_1afda32a77ff40d5959de56ad3f846729a" kind="function"><name>City_2_6_5</name></member>
+    <member refid="classru_1_1sayranov_1_1geography_1_1_city__2__6__5_1a32a9596db84bc281761678addcfb3e46" kind="function"><name>City_2_6_5</name></member>
+    <member refid="classru_1_1sayranov_1_1geography_1_1_city__2__6__5_1aa4bffa13ded1a464fddfc7501e279964" kind="function"><name>addPath</name></member>
+    <member refid="classru_1_1sayranov_1_1geography_1_1_city__2__6__5_1a700e707c9a58112ec92ac417234b25c2" kind="function"><name>removePath</name></member>
+    <member refid="classru_1_1sayranov_1_1geography_1_1_city__2__6__5_1a29778945dee788fc47ce793bd2e4fda6" kind="function"><name>getPaths</name></member>
+    <member refid="classru_1_1sayranov_1_1geography_1_1_city__2__6__5_1a024b9cf2c6e847b674eb16edfbdf05c1" kind="function"><name>getName</name></member>
+    <member refid="classru_1_1sayranov_1_1geography_1_1_city__2__6__5_1a4005fd67cc9d2fca8cd92e50def405b1" kind="function"><name>toString</name></member>
+    <member refid="classru_1_1sayranov_1_1geography_1_1_city__2__6__5_1a5a0859a2a30054922cc56737bc1b4d7f" kind="function"><name>equals</name></member>
+    <member refid="classru_1_1sayranov_1_1geography_1_1_city__2__6__5_1ae87628e55a504190455e08e52ef46113" kind="function"><name>hashCode</name></member>
+    <member refid="classru_1_1sayranov_1_1geography_1_1_city__2__6__5_1acb80113ff1863d16d122a591952a2ef2" kind="function"><name>normalizedPaths</name></member>
+    <member refid="classru_1_1sayranov_1_1geography_1_1_city__2__6__5_1a22723d4ffb9234a03d7a6dc0adc18337" kind="function"><name>validateCity</name></member>
+    <member refid="classru_1_1sayranov_1_1geography_1_1_city__2__6__5_1a4ba845c1b5302363142e031befbc1584" kind="function"><name>validateName</name></member>
+    <member refid="classru_1_1sayranov_1_1geography_1_1_city__2__6__5_1a15d63bd1f99811fea5122214f08d291e" kind="function"><name>validateCost</name></member>
+  </compound>
+  <compound refid="classru_1_1sayranov_1_1math_1_1_fraction__2__1__4" kind="class"><name>ru::sayranov::math::Fraction_2_1_4</name>
+    <member refid="classru_1_1sayranov_1_1math_1_1_fraction__2__1__4_1a5cdf7cc63feb6c333dec0c264c9af74b" kind="variable"><name>numerator</name></member>
+    <member refid="classru_1_1sayranov_1_1math_1_1_fraction__2__1__4_1a3ccfca4f779a3bb29b8819dd29ae3cc2" kind="variable"><name>denominator</name></member>
+    <member refid="classru_1_1sayranov_1_1math_1_1_fraction__2__1__4_1aae1a2b35a8ffd2319412425200e86bde" kind="function"><name>Fraction_2_1_4</name></member>
+    <member refid="classru_1_1sayranov_1_1math_1_1_fraction__2__1__4_1ab3552ceea75dd582e2682b9eecedce6e" kind="function"><name>sum</name></member>
+    <member refid="classru_1_1sayranov_1_1math_1_1_fraction__2__1__4_1a0a43286039ac5538adc62ae85953707f" kind="function"><name>minus</name></member>
+    <member refid="classru_1_1sayranov_1_1math_1_1_fraction__2__1__4_1a724a2df843f34658d1d799a18968eb2c" kind="function"><name>minus</name></member>
+    <member refid="classru_1_1sayranov_1_1math_1_1_fraction__2__1__4_1a08858f7eb86cfdf864cdb7d49389fa18" kind="function"><name>multiply</name></member>
+    <member refid="classru_1_1sayranov_1_1math_1_1_fraction__2__1__4_1ab7cfee163baa5b538608c4c882dcf1b1" kind="function"><name>multiply</name></member>
+    <member refid="classru_1_1sayranov_1_1math_1_1_fraction__2__1__4_1a9f3c3d3655939e6b13c52f9e6b235a5e" kind="function"><name>div</name></member>
+    <member refid="classru_1_1sayranov_1_1math_1_1_fraction__2__1__4_1a6c98ec51faf4dbad46ef9aaa8c02a13d" kind="function"><name>div</name></member>
+    <member refid="classru_1_1sayranov_1_1math_1_1_fraction__2__1__4_1ae78bec5e40d1a08fe04a2fd8cb7e9c9f" kind="function"><name>toString</name></member>
+    <member refid="classru_1_1sayranov_1_1math_1_1_fraction__2__1__4_1a888ae2f52fb3e89b92a1ba4269644039" kind="function"><name>gcd</name></member>
+    <member refid="classru_1_1sayranov_1_1math_1_1_fraction__2__1__4_1a379118996b3cf3b2a75d4396ae07589d" kind="function"><name>validateFraction</name></member>
+  </compound>
+  <compound refid="classru_1_1sayranov_1_1math_1_1_fraction__2__3__1" kind="class"><name>ru::sayranov::math::Fraction_2_3_1</name>
+    <member refid="classru_1_1sayranov_1_1math_1_1_fraction__2__3__1_1a68639bf642090abf379b4001e2b34b0c" kind="variable"><name>numerator</name></member>
+    <member refid="classru_1_1sayranov_1_1math_1_1_fraction__2__3__1_1a4b9bfe68cea9b09407ffd23b1b7fe465" kind="variable"><name>denominator</name></member>
+    <member refid="classru_1_1sayranov_1_1math_1_1_fraction__2__3__1_1a6cc08325bf78d32a318767fdb2614f01" kind="function"><name>Fraction_2_3_1</name></member>
+    <member refid="classru_1_1sayranov_1_1math_1_1_fraction__2__3__1_1a0dd777e62e340cd20d37037051b99a60" kind="function"><name>sum</name></member>
+    <member refid="classru_1_1sayranov_1_1math_1_1_fraction__2__3__1_1afd6507a10741f8c2571a516f0b2c439b" kind="function"><name>minus</name></member>
+    <member refid="classru_1_1sayranov_1_1math_1_1_fraction__2__3__1_1acc5107a0ecf030a9b50daa35270ecc7c" kind="function"><name>minus</name></member>
+    <member refid="classru_1_1sayranov_1_1math_1_1_fraction__2__3__1_1a005a7de76ea2140892f33c84a08edab9" kind="function"><name>multiply</name></member>
+    <member refid="classru_1_1sayranov_1_1math_1_1_fraction__2__3__1_1a1ee6f66c7b332acf9fefb17aa34b133d" kind="function"><name>multiply</name></member>
+    <member refid="classru_1_1sayranov_1_1math_1_1_fraction__2__3__1_1af1378c6f5ba9eadcbb2c2f775e409b86" kind="function"><name>div</name></member>
+    <member refid="classru_1_1sayranov_1_1math_1_1_fraction__2__3__1_1a887e2bfdf4ced2191af76560863e312b" kind="function"><name>div</name></member>
+    <member refid="classru_1_1sayranov_1_1math_1_1_fraction__2__3__1_1acbb12cd40f51d41c513c94bc7399e206" kind="function"><name>toString</name></member>
+    <member refid="classru_1_1sayranov_1_1math_1_1_fraction__2__3__1_1ade03823c449f619836edb4810ce28ea4" kind="function"><name>gcd</name></member>
+    <member refid="classru_1_1sayranov_1_1math_1_1_fraction__2__3__1_1aba534b7e5ce2fc1ac206d3e76c27b6f0" kind="function"><name>validateFraction</name></member>
+  </compound>
+  <compound refid="classru_1_1sayranov_1_1math_1_1_fraction__2__4__2" kind="class"><name>ru::sayranov::math::Fraction_2_4_2</name>
+    <member refid="classru_1_1sayranov_1_1math_1_1_fraction__2__4__2_1a58e0f24d551ea2d1a28276d9fc32d473" kind="variable"><name>numerator</name></member>
+    <member refid="classru_1_1sayranov_1_1math_1_1_fraction__2__4__2_1a36a28abe24a85f53a8c143db678b70c8" kind="variable"><name>denominator</name></member>
+    <member refid="classru_1_1sayranov_1_1math_1_1_fraction__2__4__2_1a1e1b474701ac746e9dff656722bdb32a" kind="function"><name>Fraction_2_4_2</name></member>
+    <member refid="classru_1_1sayranov_1_1math_1_1_fraction__2__4__2_1a8eabbf546febdc1e0c0039c9cf57d7f8" kind="function"><name>sum</name></member>
+    <member refid="classru_1_1sayranov_1_1math_1_1_fraction__2__4__2_1a4c693e6067d493e7f842840f23474e56" kind="function"><name>minus</name></member>
+    <member refid="classru_1_1sayranov_1_1math_1_1_fraction__2__4__2_1ad3677dba657cdfcc4f24f130b4438e81" kind="function"><name>minus</name></member>
+    <member refid="classru_1_1sayranov_1_1math_1_1_fraction__2__4__2_1ab04900405bf636c971ffc2a34c3d1e36" kind="function"><name>multiply</name></member>
+    <member refid="classru_1_1sayranov_1_1math_1_1_fraction__2__4__2_1a9920a8a9b76d3b24819f266a16530aa0" kind="function"><name>multiply</name></member>
+    <member refid="classru_1_1sayranov_1_1math_1_1_fraction__2__4__2_1abc9c2846d35a2dda4887bc84266fc121" kind="function"><name>div</name></member>
+    <member refid="classru_1_1sayranov_1_1math_1_1_fraction__2__4__2_1a5aac3175ec073997f25e8913d44f372f" kind="function"><name>div</name></member>
+    <member refid="classru_1_1sayranov_1_1math_1_1_fraction__2__4__2_1a26e577290d3e05f8fe2f7c5c4659e20a" kind="function"><name>intValue</name></member>
+    <member refid="classru_1_1sayranov_1_1math_1_1_fraction__2__4__2_1a4c19945ef3e3676f0d0ca999dc319a65" kind="function"><name>longValue</name></member>
+    <member refid="classru_1_1sayranov_1_1math_1_1_fraction__2__4__2_1ace445f3078cd547f99dc737d7fbf71bb" kind="function"><name>floatValue</name></member>
+    <member refid="classru_1_1sayranov_1_1math_1_1_fraction__2__4__2_1a4b6f340f9335ddc45be1863eef130892" kind="function"><name>doubleValue</name></member>
+    <member refid="classru_1_1sayranov_1_1math_1_1_fraction__2__4__2_1a1e6ffb10fd6837d83fb91448d2ad1494" kind="function"><name>toString</name></member>
+    <member refid="classru_1_1sayranov_1_1math_1_1_fraction__2__4__2_1a29748dd90518d6d5f4b4ac4d4c128e43" kind="function"><name>gcd</name></member>
+    <member refid="classru_1_1sayranov_1_1math_1_1_fraction__2__4__2_1a69a7d5d85660ff39e0bc61267bcb84d4" kind="function"><name>validateFraction</name></member>
+  </compound>
+  <compound refid="classru_1_1sayranov_1_1main_1_1_main" kind="class"><name>ru::sayranov::main::Main</name>
+    <member refid="classru_1_1sayranov_1_1main_1_1_main_1a4886229fb502b2c14325539ce81306ec" kind="function"><name>Main</name></member>
+    <member refid="classru_1_1sayranov_1_1main_1_1_main_1add2d0fabdad578c281f124eaa03dc388" kind="function"><name>main</name></member>
+    <member refid="classru_1_1sayranov_1_1main_1_1_main_1a52188422ca3d09c772b42315d8e7fc99" kind="function"><name>runSelectedTask</name></member>
+    <member refid="classru_1_1sayranov_1_1main_1_1_main_1a29f92c4645b46cdef82d25973ccf468b" kind="function"><name>runTask_1_4</name></member>
+    <member refid="classru_1_1sayranov_1_1main_1_1_main_1ab8bd9ef10ed9b63fbd9b563e92e4e937" kind="function"><name>runTask_1_10</name></member>
+    <member refid="classru_1_1sayranov_1_1main_1_1_main_1a633033d47b9e8a952a8346db86cc36a4" kind="function"><name>runTask_2_5</name></member>
+    <member refid="classru_1_1sayranov_1_1main_1_1_main_1ad41792292834d8af71b312b76bc86e3a" kind="function"><name>runTask_3_1</name></member>
+    <member refid="classru_1_1sayranov_1_1main_1_1_main_1a430435bea27833c68e4dd28ce529e469" kind="function"><name>runTask_4_2</name></member>
+    <member refid="classru_1_1sayranov_1_1main_1_1_main_1a09f398752b37d4a28ea9c580de6ed2cd" kind="function"><name>runTask_5_1</name></member>
+    <member refid="classru_1_1sayranov_1_1main_1_1_main_1a6f53c8a7af9b5481767394d4f7a3ebf2" kind="function"><name>runTask_6_5</name></member>
+    <member refid="classru_1_1sayranov_1_1main_1_1_main_1aa875262fab2509045f73799040095f90" kind="function"><name>runTask_7_3</name></member>
+    <member refid="classru_1_1sayranov_1_1main_1_1_main_1aa60490cc2582d477f84b8411c3a4ee2b" kind="function"><name>readInt</name></member>
+    <member refid="classru_1_1sayranov_1_1main_1_1_main_1a19c8b58c631173d765645e65071efe5d" kind="function"><name>readText</name></member>
+    <member refid="classru_1_1sayranov_1_1main_1_1_main_1a1ae9c8c30990a1076fbf2f1a8f85d635" kind="function"><name>readNumber</name></member>
+    <member refid="classru_1_1sayranov_1_1main_1_1_main_1aa98c5b3171801dea6a360d1a5bb230e8" kind="function"><name>readFraction214</name></member>
+    <member refid="classru_1_1sayranov_1_1main_1_1_main_1ad460e891af73ead6e9b1e5c88d231c77" kind="function"><name>readFraction231</name></member>
+    <member refid="classru_1_1sayranov_1_1main_1_1_main_1a5719ed3f58cfd3c1cabcde5ef62e19ff" kind="function"><name>readFraction242</name></member>
+    <member refid="classru_1_1sayranov_1_1main_1_1_main_1a89460fae2e0efe7defcfb98990ccaab0" kind="function"><name>validateIndex</name></member>
+  </compound>
+  <compound refid="classru_1_1sayranov_1_1math_1_1_power_calc__2__7__3" kind="class"><name>ru::sayranov::math::PowerCalc_2_7_3</name>
+    <member refid="classru_1_1sayranov_1_1math_1_1_power_calc__2__7__3_1a525b242c0b935c01dcf8014cbaf7c35f" kind="function"><name>PowerCalc_2_7_3</name></member>
+    <member refid="classru_1_1sayranov_1_1math_1_1_power_calc__2__7__3_1ae9fa75620a19fc63c766160342a85854" kind="function"><name>power</name></member>
+    <member refid="classru_1_1sayranov_1_1math_1_1_power_calc__2__7__3_1ae962493a25de401670ca53714f27b649" kind="function"><name>parseInt</name></member>
+  </compound>
+  <compound refid="classru_1_1sayranov_1_1geography_1_1_route__2__2__5" kind="class"><name>ru::sayranov::geography::Route_2_2_5</name>
+    <member refid="classru_1_1sayranov_1_1geography_1_1_route__2__2__5_1a1c1844170163f4c2d99001c4ad641a5c" kind="variable"><name>start</name></member>
+    <member refid="classru_1_1sayranov_1_1geography_1_1_route__2__2__5_1a5f8dd402cef430c92978de824c334fe0" kind="variable"><name>end</name></member>
+    <member refid="classru_1_1sayranov_1_1geography_1_1_route__2__2__5_1a203262f38faa89805777df275717b56b" kind="function"><name>Route_2_2_5</name></member>
+    <member refid="classru_1_1sayranov_1_1geography_1_1_route__2__2__5_1ac93caa3fe709d15ca8a4ae94706bb794" kind="function"><name>getStart</name></member>
+    <member refid="classru_1_1sayranov_1_1geography_1_1_route__2__2__5_1aaf4aac20f13e408c327eb7d90a1f124c" kind="function"><name>setStart</name></member>
+    <member refid="classru_1_1sayranov_1_1geography_1_1_route__2__2__5_1a400661a72eece3c953e4d7b129305c1c" kind="function"><name>getEnd</name></member>
+    <member refid="classru_1_1sayranov_1_1geography_1_1_route__2__2__5_1a56b3d33ec8872084939bd2d71f323580" kind="function"><name>setEnd</name></member>
+    <member refid="classru_1_1sayranov_1_1geography_1_1_route__2__2__5_1a53faec210e8b2d87bedd6fdf2550f758" kind="function"><name>getRoute</name></member>
+    <member refid="classru_1_1sayranov_1_1geography_1_1_route__2__2__5_1a3aa6468839df8cc1e0c52299178654ab" kind="function"><name>toString</name></member>
+  </compound>
+  <compound refid="classru_1_1sayranov_1_1main_1_1_sum__2__5__1" kind="class"><name>ru::sayranov::main::Sum_2_5_1</name>
+    <member refid="classru_1_1sayranov_1_1main_1_1_sum__2__5__1_1a206d6bf6575864fc25413d9289c51d49" kind="function"><name>Sum_2_5_1</name></member>
+    <member refid="classru_1_1sayranov_1_1main_1_1_sum__2__5__1_1add8b70002237f5ba6bae808120c653f0" kind="function"><name>sum</name></member>
+  </compound>
+  <compound refid="namespacejava_1_1lang" kind="namespace"><name>java::lang</name>
+  </compound>
+  <compound refid="namespaceru" kind="namespace"><name>ru</name>
+  </compound>
+  <compound refid="namespaceru_1_1sayranov" kind="namespace"><name>ru::sayranov</name>
+  </compound>
+  <compound refid="namespaceru_1_1sayranov_1_1geography" kind="namespace"><name>ru::sayranov::geography</name>
+  </compound>
+  <compound refid="namespaceru_1_1sayranov_1_1main" kind="namespace"><name>ru::sayranov::main</name>
+  </compound>
+  <compound refid="namespaceru_1_1sayranov_1_1math" kind="namespace"><name>ru::sayranov::math</name>
+  </compound>
+  <compound refid="_city__2__1__10_8java" kind="file"><name>City_2_1_10.java</name>
+  </compound>
+  <compound refid="_city__2__6__5_8java" kind="file"><name>City_2_6_5.java</name>
+  </compound>
+  <compound refid="_route__2__2__5_8java" kind="file"><name>Route_2_2_5.java</name>
+  </compound>
+  <compound refid="_main_8java" kind="file"><name>Main.java</name>
+  </compound>
+  <compound refid="_sum__2__5__1_8java" kind="file"><name>Sum_2_5_1.java</name>
+  </compound>
+  <compound refid="_fraction__2__1__4_8java" kind="file"><name>Fraction_2_1_4.java</name>
+  </compound>
+  <compound refid="_fraction__2__3__1_8java" kind="file"><name>Fraction_2_3_1.java</name>
+  </compound>
+  <compound refid="_fraction__2__4__2_8java" kind="file"><name>Fraction_2_4_2.java</name>
+  </compound>
+  <compound refid="_power_calc__2__7__3_8java" kind="file"><name>PowerCalc_2_7_3.java</name>
+  </compound>
+  <compound refid="dir_ed94c22811e8fc9488ab3891720dd156" kind="dir"><name>ru/sayranov/geography</name>
+  </compound>
+  <compound refid="dir_0666de9c1c829d81397d7cd7836891c7" kind="dir"><name>ru/sayranov/main</name>
+  </compound>
+  <compound refid="dir_d5b56ff473ab65da5a3cfb590ea9f3f1" kind="dir"><name>ru/sayranov/math</name>
+  </compound>
+  <compound refid="dir_a2b987997bf3906aebbb89ae124d18e6" kind="dir"><name>ru</name>
+  </compound>
+  <compound refid="dir_a3e2e3d8392d9b1799fca90ba7cea1cf" kind="dir"><name>ru/sayranov</name>
+  </compound>
+</doxygenindex>

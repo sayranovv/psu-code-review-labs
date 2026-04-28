@@ -1,0 +1,5 @@
+var searchData=
+[
+  ['div_0',['div',['../classru_1_1sayranov_1_1math_1_1_fraction__2__1__4.html#a9f3c3d3655939e6b13c52f9e6b235a5e',1,'ru.sayranov.math.Fraction_2_1_4.div(final Fraction_2_1_4 other)'],['../classru_1_1sayranov_1_1math_1_1_fraction__2__1__4.html#a6c98ec51faf4dbad46ef9aaa8c02a13d',1,'ru.sayranov.math.Fraction_2_1_4.div(final int value)'],['../classru_1_1sayranov_1_1math_1_1_fraction__2__3__1.html#af1378c6f5ba9eadcbb2c2f775e409b86',1,'ru.sayranov.math.Fraction_2_3_1.div(final Fraction_2_3_1 other)'],['../classru_1_1sayranov_1_1math_1_1_fraction__2__3__1.html#a887e2bfdf4ced2191af76560863e312b',1,'ru.sayranov.math.Fraction_2_3_1.div(final int value)'],['../classru_1_1sayranov_1_1math_1_1_fraction__2__4__2.html#abc9c2846d35a2dda4887bc84266fc121',1,'ru.sayranov.math.Fraction_2_4_2.div(final Fraction_2_4_2 other)'],['../classru_1_1sayranov_1_1math_1_1_fraction__2__4__2.html#a5aac3175ec073997f25e8913d44f372f',1,'ru.sayranov.math.Fraction_2_4_2.div(final int value)']]],
+  ['doublevalue_1',['doubleValue',['../classru_1_1sayranov_1_1math_1_1_fraction__2__4__2.html#a4b6f340f9335ddc45be1863eef130892',1,'ru::sayranov::math::Fraction_2_4_2']]]
+];

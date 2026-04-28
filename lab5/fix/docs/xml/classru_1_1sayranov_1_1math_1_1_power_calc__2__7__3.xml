@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="ru">
+  <compounddef id="classru_1_1sayranov_1_1math_1_1_power_calc__2__7__3" kind="class" language="Java" prot="public">
+    <compoundname>ru::sayranov::math::PowerCalc_2_7_3</compoundname>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classru_1_1sayranov_1_1math_1_1_power_calc__2__7__3_1a525b242c0b935c01dcf8014cbaf7c35f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ru.sayranov.math.PowerCalc_2_7_3.PowerCalc_2_7_3</definition>
+        <argsstring>()</argsstring>
+        <name>PowerCalc_2_7_3</name>
+        <qualifiedname>ru.sayranov.math.PowerCalc_2_7_3.PowerCalc_2_7_3</qualifiedname>
+        <briefdescription>
+<para>закрытый конструктор утилитного класса. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ru/sayranov/math/PowerCalc_2_7_3.java" line="11" column="9" bodyfile="ru/sayranov/math/PowerCalc_2_7_3.java" bodystart="11" bodyend="12"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classru_1_1sayranov_1_1math_1_1_power_calc__2__7__3_1ae9fa75620a19fc63c766160342a85854" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>static double ru.sayranov.math.PowerCalc_2_7_3.power</definition>
+        <argsstring>(final String xStr, final String yStr)</argsstring>
+        <name>power</name>
+        <qualifiedname>ru.sayranov.math.PowerCalc_2_7_3.power</qualifiedname>
+        <param>
+          <type>final String</type>
+          <declname>xStr</declname>
+        </param>
+        <param>
+          <type>final String</type>
+          <declname>yStr</declname>
+        </param>
+        <briefdescription>
+<para>возводит целое основание в целую степень. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>xStr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>основание в строке </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>yStr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>показатель степени в строке </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>результат вычисления </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ru/sayranov/math/PowerCalc_2_7_3.java" line="21" column="22" bodyfile="ru/sayranov/math/PowerCalc_2_7_3.java" bodystart="21" bodyend="28"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classru_1_1sayranov_1_1math_1_1_power_calc__2__7__3_1ae962493a25de401670ca53714f27b649" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int ru.sayranov.math.PowerCalc_2_7_3.parseInt</definition>
+        <argsstring>(final String value, final String fieldName)</argsstring>
+        <name>parseInt</name>
+        <qualifiedname>ru.sayranov.math.PowerCalc_2_7_3.parseInt</qualifiedname>
+        <param>
+          <type>final String</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>final String</type>
+          <declname>fieldName</declname>
+        </param>
+        <briefdescription>
+<para>разбирает строку в целое число. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>строковое значение </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fieldName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>имя поля для ошибки </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>целое число </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ru/sayranov/math/PowerCalc_2_7_3.java" line="37" column="20" bodyfile="ru/sayranov/math/PowerCalc_2_7_3.java" bodystart="37" bodyend="55"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>калькулятор возведения в степень. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="ru/sayranov/math/PowerCalc_2_7_3.java" line="6" column="13" bodyfile="ru/sayranov/math/PowerCalc_2_7_3.java" bodystart="6" bodyend="56"/>
+    <listofallmembers>
+      <member refid="classru_1_1sayranov_1_1math_1_1_power_calc__2__7__3_1ae962493a25de401670ca53714f27b649" prot="private" virt="non-virtual"><scope>ru::sayranov::math::PowerCalc_2_7_3</scope><name>parseInt</name></member>
+      <member refid="classru_1_1sayranov_1_1math_1_1_power_calc__2__7__3_1ae9fa75620a19fc63c766160342a85854" prot="public" virt="non-virtual"><scope>ru::sayranov::math::PowerCalc_2_7_3</scope><name>power</name></member>
+      <member refid="classru_1_1sayranov_1_1math_1_1_power_calc__2__7__3_1a525b242c0b935c01dcf8014cbaf7c35f" prot="private" virt="non-virtual"><scope>ru::sayranov::math::PowerCalc_2_7_3</scope><name>PowerCalc_2_7_3</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

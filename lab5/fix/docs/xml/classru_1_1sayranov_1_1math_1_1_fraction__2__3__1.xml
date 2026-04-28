@@ -1,0 +1,411 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="ru">
+  <compounddef id="classru_1_1sayranov_1_1math_1_1_fraction__2__3__1" kind="class" language="Java" prot="public">
+    <compoundname>ru::sayranov::math::Fraction_2_3_1</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classru_1_1sayranov_1_1math_1_1_fraction__2__3__1_1a68639bf642090abf379b4001e2b34b0c" prot="private" static="no" mutable="no">
+        <type>final int</type>
+        <definition>final int ru.sayranov.math.Fraction_2_3_1.numerator</definition>
+        <argsstring></argsstring>
+        <name>numerator</name>
+        <qualifiedname>ru.sayranov.math.Fraction_2_3_1.numerator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ru/sayranov/math/Fraction_2_3_1.java" line="8" column="19" bodyfile="ru/sayranov/math/Fraction_2_3_1.java" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classru_1_1sayranov_1_1math_1_1_fraction__2__3__1_1a4b9bfe68cea9b09407ffd23b1b7fe465" prot="private" static="no" mutable="no">
+        <type>final int</type>
+        <definition>final int ru.sayranov.math.Fraction_2_3_1.denominator</definition>
+        <argsstring></argsstring>
+        <name>denominator</name>
+        <qualifiedname>ru.sayranov.math.Fraction_2_3_1.denominator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ru/sayranov/math/Fraction_2_3_1.java" line="9" column="19" bodyfile="ru/sayranov/math/Fraction_2_3_1.java" bodystart="9" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classru_1_1sayranov_1_1math_1_1_fraction__2__3__1_1a6cc08325bf78d32a318767fdb2614f01" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ru.sayranov.math.Fraction_2_3_1.Fraction_2_3_1</definition>
+        <argsstring>(final int numerator, final int denominator)</argsstring>
+        <name>Fraction_2_3_1</name>
+        <qualifiedname>ru.sayranov.math.Fraction_2_3_1.Fraction_2_3_1</qualifiedname>
+        <param>
+          <type>final int</type>
+          <declname>numerator</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>denominator</declname>
+        </param>
+        <briefdescription>
+<para>создает нормализованную дробь. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="classru_1_1sayranov_1_1math_1_1_fraction__2__3__1_1a68639bf642090abf379b4001e2b34b0c" kindref="member">numerator</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para>числитель </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername><ref refid="classru_1_1sayranov_1_1math_1_1_fraction__2__3__1_1a4b9bfe68cea9b09407ffd23b1b7fe465" kindref="member">denominator</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para>знаменатель </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ru/sayranov/math/Fraction_2_3_1.java" line="17" column="8" bodyfile="ru/sayranov/math/Fraction_2_3_1.java" bodystart="17" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classru_1_1sayranov_1_1math_1_1_fraction__2__3__1_1a0dd777e62e340cd20d37037051b99a60" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classru_1_1sayranov_1_1math_1_1_fraction__2__3__1_1a6cc08325bf78d32a318767fdb2614f01" kindref="member">Fraction_2_3_1</ref></type>
+        <definition>Fraction_2_3_1 ru.sayranov.math.Fraction_2_3_1.sum</definition>
+        <argsstring>(final Fraction_2_3_1 other)</argsstring>
+        <name>sum</name>
+        <qualifiedname>ru.sayranov.math.Fraction_2_3_1.sum</qualifiedname>
+        <param>
+          <type>final <ref refid="classru_1_1sayranov_1_1math_1_1_fraction__2__3__1_1a6cc08325bf78d32a318767fdb2614f01" kindref="member">Fraction_2_3_1</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>складывает две дроби. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>other</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>вторая дробь </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>результат сложения </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ru/sayranov/math/Fraction_2_3_1.java" line="50" column="23" bodyfile="ru/sayranov/math/Fraction_2_3_1.java" bodystart="50" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classru_1_1sayranov_1_1math_1_1_fraction__2__3__1_1afd6507a10741f8c2571a516f0b2c439b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classru_1_1sayranov_1_1math_1_1_fraction__2__3__1_1a6cc08325bf78d32a318767fdb2614f01" kindref="member">Fraction_2_3_1</ref></type>
+        <definition>Fraction_2_3_1 ru.sayranov.math.Fraction_2_3_1.minus</definition>
+        <argsstring>(final Fraction_2_3_1 other)</argsstring>
+        <name>minus</name>
+        <qualifiedname>ru.sayranov.math.Fraction_2_3_1.minus</qualifiedname>
+        <param>
+          <type>final <ref refid="classru_1_1sayranov_1_1math_1_1_fraction__2__3__1_1a6cc08325bf78d32a318767fdb2614f01" kindref="member">Fraction_2_3_1</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>вычитает дробь. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>other</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>вычитаемая дробь </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>результат вычитания </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ru/sayranov/math/Fraction_2_3_1.java" line="65" column="23" bodyfile="ru/sayranov/math/Fraction_2_3_1.java" bodystart="65" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="classru_1_1sayranov_1_1math_1_1_fraction__2__3__1_1acc5107a0ecf030a9b50daa35270ecc7c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classru_1_1sayranov_1_1math_1_1_fraction__2__3__1_1a6cc08325bf78d32a318767fdb2614f01" kindref="member">Fraction_2_3_1</ref></type>
+        <definition>Fraction_2_3_1 ru.sayranov.math.Fraction_2_3_1.minus</definition>
+        <argsstring>(final int value)</argsstring>
+        <name>minus</name>
+        <qualifiedname>ru.sayranov.math.Fraction_2_3_1.minus</qualifiedname>
+        <param>
+          <type>final int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>вычитает целое число. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>целое число </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>результат вычитания </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ru/sayranov/math/Fraction_2_3_1.java" line="80" column="23" bodyfile="ru/sayranov/math/Fraction_2_3_1.java" bodystart="80" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="classru_1_1sayranov_1_1math_1_1_fraction__2__3__1_1a005a7de76ea2140892f33c84a08edab9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classru_1_1sayranov_1_1math_1_1_fraction__2__3__1_1a6cc08325bf78d32a318767fdb2614f01" kindref="member">Fraction_2_3_1</ref></type>
+        <definition>Fraction_2_3_1 ru.sayranov.math.Fraction_2_3_1.multiply</definition>
+        <argsstring>(final Fraction_2_3_1 other)</argsstring>
+        <name>multiply</name>
+        <qualifiedname>ru.sayranov.math.Fraction_2_3_1.multiply</qualifiedname>
+        <param>
+          <type>final <ref refid="classru_1_1sayranov_1_1math_1_1_fraction__2__3__1_1a6cc08325bf78d32a318767fdb2614f01" kindref="member">Fraction_2_3_1</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>умножает на дробь. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>other</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>вторая дробь </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>результат умножения </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ru/sayranov/math/Fraction_2_3_1.java" line="90" column="23" bodyfile="ru/sayranov/math/Fraction_2_3_1.java" bodystart="90" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="classru_1_1sayranov_1_1math_1_1_fraction__2__3__1_1a1ee6f66c7b332acf9fefb17aa34b133d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classru_1_1sayranov_1_1math_1_1_fraction__2__3__1_1a6cc08325bf78d32a318767fdb2614f01" kindref="member">Fraction_2_3_1</ref></type>
+        <definition>Fraction_2_3_1 ru.sayranov.math.Fraction_2_3_1.multiply</definition>
+        <argsstring>(final int value)</argsstring>
+        <name>multiply</name>
+        <qualifiedname>ru.sayranov.math.Fraction_2_3_1.multiply</qualifiedname>
+        <param>
+          <type>final int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>умножает на целое число. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>множитель </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>результат умножения </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ru/sayranov/math/Fraction_2_3_1.java" line="104" column="23" bodyfile="ru/sayranov/math/Fraction_2_3_1.java" bodystart="104" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="classru_1_1sayranov_1_1math_1_1_fraction__2__3__1_1af1378c6f5ba9eadcbb2c2f775e409b86" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classru_1_1sayranov_1_1math_1_1_fraction__2__3__1_1a6cc08325bf78d32a318767fdb2614f01" kindref="member">Fraction_2_3_1</ref></type>
+        <definition>Fraction_2_3_1 ru.sayranov.math.Fraction_2_3_1.div</definition>
+        <argsstring>(final Fraction_2_3_1 other)</argsstring>
+        <name>div</name>
+        <qualifiedname>ru.sayranov.math.Fraction_2_3_1.div</qualifiedname>
+        <param>
+          <type>final <ref refid="classru_1_1sayranov_1_1math_1_1_fraction__2__3__1_1a6cc08325bf78d32a318767fdb2614f01" kindref="member">Fraction_2_3_1</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>делит на дробь. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>other</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>делитель </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>результат деления </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ru/sayranov/math/Fraction_2_3_1.java" line="114" column="23" bodyfile="ru/sayranov/math/Fraction_2_3_1.java" bodystart="114" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="classru_1_1sayranov_1_1math_1_1_fraction__2__3__1_1a887e2bfdf4ced2191af76560863e312b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classru_1_1sayranov_1_1math_1_1_fraction__2__3__1_1a6cc08325bf78d32a318767fdb2614f01" kindref="member">Fraction_2_3_1</ref></type>
+        <definition>Fraction_2_3_1 ru.sayranov.math.Fraction_2_3_1.div</definition>
+        <argsstring>(final int value)</argsstring>
+        <name>div</name>
+        <qualifiedname>ru.sayranov.math.Fraction_2_3_1.div</qualifiedname>
+        <param>
+          <type>final int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>делит на целое число. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>делитель </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>результат деления </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ru/sayranov/math/Fraction_2_3_1.java" line="134" column="23" bodyfile="ru/sayranov/math/Fraction_2_3_1.java" bodystart="134" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="classru_1_1sayranov_1_1math_1_1_fraction__2__3__1_1acbb12cd40f51d41c513c94bc7399e206" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String ru.sayranov.math.Fraction_2_3_1.toString</definition>
+        <argsstring>()</argsstring>
+        <name>toString</name>
+        <qualifiedname>ru.sayranov.math.Fraction_2_3_1.toString</qualifiedname>
+        <briefdescription>
+<para>возвращает строковое представление. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>строка с дробью </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ru/sayranov/math/Fraction_2_3_1.java" line="150" column="15" bodyfile="ru/sayranov/math/Fraction_2_3_1.java" bodystart="150" bodyend="152"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classru_1_1sayranov_1_1math_1_1_fraction__2__3__1_1ade03823c449f619836edb4810ce28ea4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int ru.sayranov.math.Fraction_2_3_1.gcd</definition>
+        <argsstring>(final int left, final int right)</argsstring>
+        <name>gcd</name>
+        <qualifiedname>ru.sayranov.math.Fraction_2_3_1.gcd</qualifiedname>
+        <param>
+          <type>final int</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>final int</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+<para>вычисляет наибольший общий делитель. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>left</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>первое число </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>right</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>второе число </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>наибольший общий делитель </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ru/sayranov/math/Fraction_2_3_1.java" line="161" column="13" bodyfile="ru/sayranov/math/Fraction_2_3_1.java" bodystart="161" bodyend="172"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classru_1_1sayranov_1_1math_1_1_fraction__2__3__1_1aba534b7e5ce2fc1ac206d3e76c27b6f0" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ru.sayranov.math.Fraction_2_3_1.validateFraction</definition>
+        <argsstring>(final Fraction_2_3_1 fraction)</argsstring>
+        <name>validateFraction</name>
+        <qualifiedname>ru.sayranov.math.Fraction_2_3_1.validateFraction</qualifiedname>
+        <param>
+          <type>final <ref refid="classru_1_1sayranov_1_1math_1_1_fraction__2__3__1_1a6cc08325bf78d32a318767fdb2614f01" kindref="member">Fraction_2_3_1</ref></type>
+          <declname>fraction</declname>
+        </param>
+        <briefdescription>
+<para>проверяет входную дробь. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fraction</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>дробь </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ru/sayranov/math/Fraction_2_3_1.java" line="179" column="21" bodyfile="ru/sayranov/math/Fraction_2_3_1.java" bodystart="179" bodyend="187"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>неизменяемая final-дробь для задания 2.3.1. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="ru/sayranov/math/Fraction_2_3_1.java" line="6" column="13" bodyfile="ru/sayranov/math/Fraction_2_3_1.java" bodystart="6" bodyend="188"/>
+    <listofallmembers>
+      <member refid="classru_1_1sayranov_1_1math_1_1_fraction__2__3__1_1a4b9bfe68cea9b09407ffd23b1b7fe465" prot="private" virt="non-virtual"><scope>ru::sayranov::math::Fraction_2_3_1</scope><name>denominator</name></member>
+      <member refid="classru_1_1sayranov_1_1math_1_1_fraction__2__3__1_1af1378c6f5ba9eadcbb2c2f775e409b86" prot="public" virt="non-virtual"><scope>ru::sayranov::math::Fraction_2_3_1</scope><name>div</name></member>
+      <member refid="classru_1_1sayranov_1_1math_1_1_fraction__2__3__1_1a887e2bfdf4ced2191af76560863e312b" prot="public" virt="non-virtual"><scope>ru::sayranov::math::Fraction_2_3_1</scope><name>div</name></member>
+      <member refid="classru_1_1sayranov_1_1math_1_1_fraction__2__3__1_1a6cc08325bf78d32a318767fdb2614f01" prot="public" virt="non-virtual"><scope>ru::sayranov::math::Fraction_2_3_1</scope><name>Fraction_2_3_1</name></member>
+      <member refid="classru_1_1sayranov_1_1math_1_1_fraction__2__3__1_1ade03823c449f619836edb4810ce28ea4" prot="private" virt="non-virtual"><scope>ru::sayranov::math::Fraction_2_3_1</scope><name>gcd</name></member>
+      <member refid="classru_1_1sayranov_1_1math_1_1_fraction__2__3__1_1afd6507a10741f8c2571a516f0b2c439b" prot="public" virt="non-virtual"><scope>ru::sayranov::math::Fraction_2_3_1</scope><name>minus</name></member>
+      <member refid="classru_1_1sayranov_1_1math_1_1_fraction__2__3__1_1acc5107a0ecf030a9b50daa35270ecc7c" prot="public" virt="non-virtual"><scope>ru::sayranov::math::Fraction_2_3_1</scope><name>minus</name></member>
+      <member refid="classru_1_1sayranov_1_1math_1_1_fraction__2__3__1_1a005a7de76ea2140892f33c84a08edab9" prot="public" virt="non-virtual"><scope>ru::sayranov::math::Fraction_2_3_1</scope><name>multiply</name></member>
+      <member refid="classru_1_1sayranov_1_1math_1_1_fraction__2__3__1_1a1ee6f66c7b332acf9fefb17aa34b133d" prot="public" virt="non-virtual"><scope>ru::sayranov::math::Fraction_2_3_1</scope><name>multiply</name></member>
+      <member refid="classru_1_1sayranov_1_1math_1_1_fraction__2__3__1_1a68639bf642090abf379b4001e2b34b0c" prot="private" virt="non-virtual"><scope>ru::sayranov::math::Fraction_2_3_1</scope><name>numerator</name></member>
+      <member refid="classru_1_1sayranov_1_1math_1_1_fraction__2__3__1_1a0dd777e62e340cd20d37037051b99a60" prot="public" virt="non-virtual"><scope>ru::sayranov::math::Fraction_2_3_1</scope><name>sum</name></member>
+      <member refid="classru_1_1sayranov_1_1math_1_1_fraction__2__3__1_1acbb12cd40f51d41c513c94bc7399e206" prot="public" virt="non-virtual"><scope>ru::sayranov::math::Fraction_2_3_1</scope><name>toString</name></member>
+      <member refid="classru_1_1sayranov_1_1math_1_1_fraction__2__3__1_1aba534b7e5ce2fc1ac206d3e76c27b6f0" prot="private" virt="non-virtual"><scope>ru::sayranov::math::Fraction_2_3_1</scope><name>validateFraction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

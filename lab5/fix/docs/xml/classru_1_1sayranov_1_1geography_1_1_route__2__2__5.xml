@@ -1,0 +1,236 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="ru">
+  <compounddef id="classru_1_1sayranov_1_1geography_1_1_route__2__2__5" kind="class" language="Java" prot="public">
+    <compoundname>ru::sayranov::geography::Route_2_2_5</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classru_1_1sayranov_1_1geography_1_1_route__2__2__5_1a1c1844170163f4c2d99001c4ad641a5c" prot="private" static="no" mutable="no">
+        <type><ref refid="classru_1_1sayranov_1_1geography_1_1_city__2__1__10" kindref="compound">City_2_1_10</ref></type>
+        <definition>City_2_1_10 ru.sayranov.geography.Route_2_2_5.start</definition>
+        <argsstring></argsstring>
+        <name>start</name>
+        <qualifiedname>ru.sayranov.geography.Route_2_2_5.start</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ru/sayranov/geography/Route_2_2_5.java" line="17" column="21" bodyfile="ru/sayranov/geography/Route_2_2_5.java" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classru_1_1sayranov_1_1geography_1_1_route__2__2__5_1a5f8dd402cef430c92978de824c334fe0" prot="private" static="no" mutable="no">
+        <type><ref refid="classru_1_1sayranov_1_1geography_1_1_city__2__1__10" kindref="compound">City_2_1_10</ref></type>
+        <definition>City_2_1_10 ru.sayranov.geography.Route_2_2_5.end</definition>
+        <argsstring></argsstring>
+        <name>end</name>
+        <qualifiedname>ru.sayranov.geography.Route_2_2_5.end</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ru/sayranov/geography/Route_2_2_5.java" line="18" column="21" bodyfile="ru/sayranov/geography/Route_2_2_5.java" bodystart="18" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classru_1_1sayranov_1_1geography_1_1_route__2__2__5_1a203262f38faa89805777df275717b56b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ru.sayranov.geography.Route_2_2_5.Route_2_2_5</definition>
+        <argsstring>(final City_2_1_10 start, final City_2_1_10 end)</argsstring>
+        <name>Route_2_2_5</name>
+        <qualifiedname>ru.sayranov.geography.Route_2_2_5.Route_2_2_5</qualifiedname>
+        <param>
+          <type>final <ref refid="classru_1_1sayranov_1_1geography_1_1_city__2__1__10" kindref="compound">City_2_1_10</ref></type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type>final <ref refid="classru_1_1sayranov_1_1geography_1_1_city__2__1__10" kindref="compound">City_2_1_10</ref></type>
+          <declname>end</declname>
+        </param>
+        <briefdescription>
+<para>создает маршрут между двумя городами. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="classru_1_1sayranov_1_1geography_1_1_route__2__2__5_1a1c1844170163f4c2d99001c4ad641a5c" kindref="member">start</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para>начальный город </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername><ref refid="classru_1_1sayranov_1_1geography_1_1_route__2__2__5_1a5f8dd402cef430c92978de824c334fe0" kindref="member">end</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para>конечный город </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ru/sayranov/geography/Route_2_2_5.java" line="26" column="8" bodyfile="ru/sayranov/geography/Route_2_2_5.java" bodystart="26" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classru_1_1sayranov_1_1geography_1_1_route__2__2__5_1ac93caa3fe709d15ca8a4ae94706bb794" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classru_1_1sayranov_1_1geography_1_1_city__2__1__10" kindref="compound">City_2_1_10</ref></type>
+        <definition>City_2_1_10 ru.sayranov.geography.Route_2_2_5.getStart</definition>
+        <argsstring>()</argsstring>
+        <name>getStart</name>
+        <qualifiedname>ru.sayranov.geography.Route_2_2_5.getStart</qualifiedname>
+        <briefdescription>
+<para>возвращает начальный город. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>начальный город </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ru/sayranov/geography/Route_2_2_5.java" line="39" column="20" bodyfile="ru/sayranov/geography/Route_2_2_5.java" bodystart="39" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classru_1_1sayranov_1_1geography_1_1_route__2__2__5_1aaf4aac20f13e408c327eb7d90a1f124c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ru.sayranov.geography.Route_2_2_5.setStart</definition>
+        <argsstring>(final City_2_1_10 start)</argsstring>
+        <name>setStart</name>
+        <qualifiedname>ru.sayranov.geography.Route_2_2_5.setStart</qualifiedname>
+        <param>
+          <type>final <ref refid="classru_1_1sayranov_1_1geography_1_1_city__2__1__10" kindref="compound">City_2_1_10</ref></type>
+          <declname>start</declname>
+        </param>
+        <briefdescription>
+<para>задает начальный город. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="classru_1_1sayranov_1_1geography_1_1_route__2__2__5_1a1c1844170163f4c2d99001c4ad641a5c" kindref="member">start</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para>начальный город </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ru/sayranov/geography/Route_2_2_5.java" line="48" column="13" bodyfile="ru/sayranov/geography/Route_2_2_5.java" bodystart="48" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classru_1_1sayranov_1_1geography_1_1_route__2__2__5_1a400661a72eece3c953e4d7b129305c1c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classru_1_1sayranov_1_1geography_1_1_city__2__1__10" kindref="compound">City_2_1_10</ref></type>
+        <definition>City_2_1_10 ru.sayranov.geography.Route_2_2_5.getEnd</definition>
+        <argsstring>()</argsstring>
+        <name>getEnd</name>
+        <qualifiedname>ru.sayranov.geography.Route_2_2_5.getEnd</qualifiedname>
+        <briefdescription>
+<para>возвращает конечный город. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>конечный город </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ru/sayranov/geography/Route_2_2_5.java" line="63" column="20" bodyfile="ru/sayranov/geography/Route_2_2_5.java" bodystart="63" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="classru_1_1sayranov_1_1geography_1_1_route__2__2__5_1a56b3d33ec8872084939bd2d71f323580" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ru.sayranov.geography.Route_2_2_5.setEnd</definition>
+        <argsstring>(final City_2_1_10 end)</argsstring>
+        <name>setEnd</name>
+        <qualifiedname>ru.sayranov.geography.Route_2_2_5.setEnd</qualifiedname>
+        <param>
+          <type>final <ref refid="classru_1_1sayranov_1_1geography_1_1_city__2__1__10" kindref="compound">City_2_1_10</ref></type>
+          <declname>end</declname>
+        </param>
+        <briefdescription>
+<para>задает конечный город. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername><ref refid="classru_1_1sayranov_1_1geography_1_1_route__2__2__5_1a5f8dd402cef430c92978de824c334fe0" kindref="member">end</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+<para>конечный город </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ru/sayranov/geography/Route_2_2_5.java" line="72" column="13" bodyfile="ru/sayranov/geography/Route_2_2_5.java" bodystart="72" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="classru_1_1sayranov_1_1geography_1_1_route__2__2__5_1a53faec210e8b2d87bedd6fdf2550f758" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classru_1_1sayranov_1_1geography_1_1_city__2__1__10" kindref="compound">City_2_1_10</ref>[]</type>
+        <definition>City_2_1_10[] ru.sayranov.geography.Route_2_2_5.getRoute</definition>
+        <argsstring>()</argsstring>
+        <name>getRoute</name>
+        <qualifiedname>ru.sayranov.geography.Route_2_2_5.getRoute</qualifiedname>
+        <briefdescription>
+<para>строит путь в ширину. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>массив городов маршрута </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ru/sayranov/geography/Route_2_2_5.java" line="87" column="20" bodyfile="ru/sayranov/geography/Route_2_2_5.java" bodystart="87" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="function" id="classru_1_1sayranov_1_1geography_1_1_route__2__2__5_1a3aa6468839df8cc1e0c52299178654ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String ru.sayranov.geography.Route_2_2_5.toString</definition>
+        <argsstring>()</argsstring>
+        <name>toString</name>
+        <qualifiedname>ru.sayranov.geography.Route_2_2_5.toString</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ru/sayranov/geography/Route_2_2_5.java" line="132" column="15" bodyfile="ru/sayranov/geography/Route_2_2_5.java" bodystart="132" bodyend="150"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>маршрут между двумя городами. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ru.sayranov.geography.Route_2_2_5</label>
+        <link refid="classru_1_1sayranov_1_1geography_1_1_route__2__2__5"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>end</edgelabel>
+          <edgelabel>start</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ru.sayranov.geography.City_2_1_10</label>
+        <link refid="classru_1_1sayranov_1_1geography_1_1_city__2__1__10"/>
+      </node>
+    </collaborationgraph>
+    <location file="ru/sayranov/geography/Route_2_2_5.java" line="15" column="7" bodyfile="ru/sayranov/geography/Route_2_2_5.java" bodystart="15" bodyend="151"/>
+    <listofallmembers>
+      <member refid="classru_1_1sayranov_1_1geography_1_1_route__2__2__5_1a5f8dd402cef430c92978de824c334fe0" prot="private" virt="non-virtual"><scope>ru::sayranov::geography::Route_2_2_5</scope><name>end</name></member>
+      <member refid="classru_1_1sayranov_1_1geography_1_1_route__2__2__5_1a400661a72eece3c953e4d7b129305c1c" prot="public" virt="non-virtual"><scope>ru::sayranov::geography::Route_2_2_5</scope><name>getEnd</name></member>
+      <member refid="classru_1_1sayranov_1_1geography_1_1_route__2__2__5_1a53faec210e8b2d87bedd6fdf2550f758" prot="public" virt="non-virtual"><scope>ru::sayranov::geography::Route_2_2_5</scope><name>getRoute</name></member>
+      <member refid="classru_1_1sayranov_1_1geography_1_1_route__2__2__5_1ac93caa3fe709d15ca8a4ae94706bb794" prot="public" virt="non-virtual"><scope>ru::sayranov::geography::Route_2_2_5</scope><name>getStart</name></member>
+      <member refid="classru_1_1sayranov_1_1geography_1_1_route__2__2__5_1a203262f38faa89805777df275717b56b" prot="public" virt="non-virtual"><scope>ru::sayranov::geography::Route_2_2_5</scope><name>Route_2_2_5</name></member>
+      <member refid="classru_1_1sayranov_1_1geography_1_1_route__2__2__5_1a56b3d33ec8872084939bd2d71f323580" prot="public" virt="non-virtual"><scope>ru::sayranov::geography::Route_2_2_5</scope><name>setEnd</name></member>
+      <member refid="classru_1_1sayranov_1_1geography_1_1_route__2__2__5_1aaf4aac20f13e408c327eb7d90a1f124c" prot="public" virt="non-virtual"><scope>ru::sayranov::geography::Route_2_2_5</scope><name>setStart</name></member>
+      <member refid="classru_1_1sayranov_1_1geography_1_1_route__2__2__5_1a1c1844170163f4c2d99001c4ad641a5c" prot="private" virt="non-virtual"><scope>ru::sayranov::geography::Route_2_2_5</scope><name>start</name></member>
+      <member refid="classru_1_1sayranov_1_1geography_1_1_route__2__2__5_1a3aa6468839df8cc1e0c52299178654ab" prot="public" virt="non-virtual"><scope>ru::sayranov::geography::Route_2_2_5</scope><name>toString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
